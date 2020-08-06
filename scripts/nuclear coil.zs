@@ -30,7 +30,7 @@ mods.nuclearcraft.Registration.registerTurbineCoil("lead",1.14, "one nether coil
 mods.nuclearcraft.Registration.registerTurbineCoil("manganese",1.11, "one arsenic coil && one villiaumite coil ");
 mods.nuclearcraft.Registration.registerTurbineCoil("nitrogen",1.12, "one prismarine coil");
 mods.nuclearcraft.Registration.registerTurbineCoil("helium",1.09, "exactly three copper coils");
-mods.nuclearcraft.Registration.registerTurbineCoil("cryotheum",1.35, "four magnesium coils");
+mods.nuclearcraft.Registration.registerTurbineCoil("cryotheum",1.30, "four magnesium coils");
 mods.nuclearcraft.Registration.registerTurbineCoil("enderium",1.20, "four connectors");
 mods.nuclearcraft.Registration.registerTurbineCoil("slime",1.15, "one obsidian coil");
 
