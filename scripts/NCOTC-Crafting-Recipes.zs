@@ -10,11 +10,12 @@ obsidian: <ore:obsidian>, end: <ore:endstone>, prismarine: <ore:gemPrismarine>, 
 manganese: <ore:ingotManganese>, slime: <minecraft:slime_ball>, enderium: <ore:ingotEnderium>, cryotheum: <ore:dustCryotheum>} as IIngredient[string];
 
 for name, material in material_map {
-	recipes.addShaped("ncotc" ~ name ~ "coil", itemUtils.getItem("nuclearcraft:turbine_dynamo_coil_" ~ name)*2,
-	[[material, material, material],
-	[<nuclearcraft:alloy:15>, <nuclearcraft:alloy:1>, <nuclearcraft:alloy:15>],
-	[material, material, material]]); }
-
+	if ((name != "enderium" & name != "cryotheum") | ( (name == "enderium" | name == "cryotheum") & (loadedMods has "thermalfoundation") ) ) {
+		recipes.addShaped("ncotc" ~ name ~ "coil", itemUtils.getItem("nuclearcraft:turbine_dynamo_coil_" ~ name)*2,
+		[[material, material, material],
+		[<nuclearcraft:alloy:15>, <nuclearcraft:alloy:1>, <nuclearcraft:alloy:15>],
+		[material, material, material]]); } }
+		
 recipes.addShaped("NCOTCEmptyCoil", <nuclearcraft:turbine_dynamo_coil_empty>*2, 
 [[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
 [<nuclearcraft:alloy:15>, <nuclearcraft:alloy:1>, <nuclearcraft:alloy:15>],
