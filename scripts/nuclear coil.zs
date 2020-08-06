@@ -2,7 +2,7 @@
 
 // || = or , && = and
 mods.nuclearcraft.Registration.registerTurbineCoil("redstone", 1.20, "one copper coil && one silver coil");
-mods.nuclearcraft.Registration.registerTurbineCoil("graphite", 1.07, "one beryllium coil");
+mods.nuclearcraft.Registration.registerTurbineCoil("graphite", 1.04, "one beryllium coil");
 mods.nuclearcraft.Registration.registerTurbineCoil("lithium", 1.10, "one connector && one graphite coil");
 mods.nuclearcraft.Registration.registerTurbineCoil("lapis", 1.21, "two silver coils");
 mods.nuclearcraft.Registration.registerTurbineCoil("emerald", 1.18, "one graphite coil && one lapis coil");
