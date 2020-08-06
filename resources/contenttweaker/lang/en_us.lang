@@ -27,10 +27,13 @@ tile.nuclearcraft.turbine_dynamo_coil_purpur.name=Purpur Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_prismarine.name=Prismarine Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_nak.name=Eutectic NaK Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_corium.name=Corium Turbine Dynamo Coil
-
-
-
-
+tile.nuclearcraft.turbine_dynamo_coil_lead.name=Lead Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_manganese.name=Manganese Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_nitrogen.name=Liquid Nitrogen Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_helium.name=Liquid Helium Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_cryotheum.name=Cryo-stablized Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_enderium.name=Enderium Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_slime.name=Slimy Turbine Dynamo Coil
 
 
 
@@ -85,6 +88,17 @@ nc.sf.nak_coil0=%s Eutectic NaK dynamo coil
 nc.sf.nak_coil1=%s Eutectic NaK dynamo coils
 nc.sf.corium_coil0=%s Corium dynamo coil
 nc.sf.corium_coil1=%s Corium dynamo coils
-
-
-
+nc.sf.lead_coil0=%s Lead dynamo coil
+nc.sf.lead_coil1=%s Lead dynamo coils
+nc.sf.manganese_coil0=%s Manganese dynamo coil
+nc.sf.manganese_coil1=%s Manganese dynamo coils
+nc.sf.nitrogen_coil0=%s Liquid Nitrogen dynamo coil
+nc.sf.nitrogen_coil1=%s Liquid Nitrogen dynamo coils
+nc.sf.helium_coil0=%s Liquid Helium dynamo coil
+nc.sf.helium_coil1=%s Liquid Helium dynamo coils
+nc.sf.cryotheum_coil0=%s Cryo-stablized dynamo coil
+nc.sf.cryotheum_coil1=%s Cryo-stablized dynamo coils
+nc.sf.enderium_coil0=%s Enderium dynamo coil
+nc.sf.enderium_coil1=%s Enderium dynamo coils
+nc.sf.slime_coil0=%s Slimy dynamo coil
+nc.sf.slime_coil1=%s Slimy dynamo coils
