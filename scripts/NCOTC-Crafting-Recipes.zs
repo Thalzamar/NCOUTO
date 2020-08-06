@@ -1,21 +1,21 @@
-import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 import mods.nuclearcraft.Infuser;
 
 
-val material_map = {redstone: <minecraft:redstone>, graphite: <nuclearcraft:ingot:8>, lithium: <nuclearcraft:ingot:6>, lapis: <minecraft:dye:4>,
-emerald: <minecraft:emerald>, diamond: <minecraft:diamond>, villiaumite: <nuclearcraft:gem:3>, fluorite: <nuclearcraft:gem:2>, carobbiite: <nuclearcraft:gem:4>,
-hardcarbon: <nuclearcraft:alloy:2>, zircaloy: <nuclearcraft:alloy:12>, thermoconducting: <nuclearcraft:alloy:11>, iron: <minecraft:iron_ingot>,
-boron: <nuclearcraft:ingot:5>, quartz: <minecraft:quartz>, arsenic: <nuclearcraft:gem_dust:10>, glowstone: <minecraft:glowstone_dust>,
-nether: <minecraft:netherbrick>, obsidian: <minecraft:obsidian>, end: <minecraft:end_stone>, prismarine: <minecraft:prismarine_shard>,
-purpur: <minecraft:purpur_block>,lead: <nuclearcraft:ingot:2>,manganese: <nuclearcraft:ingot:11>, slime: <minecraft:slime_ball>} as IItemStack[string];
+val material_map = {redstone: <ore:dustRedstone>, graphite: <ore:ingotGraphite>, lithium: <ore:ingotLithium>, lapis: <ore:gemLapis>,
+emerald: <ore:gemEmerald>, diamond: <ore:gemDiamond>, villiaumite: <ore:gemVilliaumite>, fluorite: <ore:gemFluorite>, carobbiite: <ore:gemCarobbiite>,
+hardcarbon: <ore:ingotHardCarbon>, zircaloy: <ore:ingotZircaloy>, thermoconducting: <ore:ingotThermoconducting>, iron: <ore:ingotIron>,
+boron: <ore:ingotBoron>, quartz: <ore:gemQuartz>, arsenic: <ore:dustArsenic>, glowstone: <ore:dustGlowstone>, nether: <ore:ingotBrickNether>,
+obsidian: <ore:obsidian>, end: <ore:endstone>, prismarine: <ore:gemPrismarine>, purpur: <minecraft:purpur_block>, lead: <ore:ingotLead>, 
+manganese: <ore:ingotManganese>, slime: <minecraft:slime_ball>, enderium: <ore:ingotEnderium>, cryotheum: <ore:dustCryotheum>} as IIngredient[string];
 
 for name, material in material_map {
-	recipes.addShaped("tncotc" ~ name ~ "coil", itemUtils.getItem("nuclearcraft:turbine_dynamo_coil_" ~ name)*2,
+	recipes.addShaped("ncotc" ~ name ~ "coil", itemUtils.getItem("nuclearcraft:turbine_dynamo_coil_" ~ name)*2,
 	[[material, material, material],
 	[<nuclearcraft:alloy:15>, <nuclearcraft:alloy:1>, <nuclearcraft:alloy:15>],
 	[material, material, material]]); }
 
-recipes.addShaped("TNCOTCEmptyCoil", <nuclearcraft:turbine_dynamo_coil_empty>*2, 
+recipes.addShaped("NCOTCEmptyCoil", <nuclearcraft:turbine_dynamo_coil_empty>*2, 
 [[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
 [<nuclearcraft:alloy:15>, <nuclearcraft:alloy:1>, <nuclearcraft:alloy:15>],
 [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]]);
@@ -30,9 +30,9 @@ Infuser.addRecipe(<nuclearcraft:turbine_dynamo_coil_empty>, <liquid:cryotheum>*1
 
 
 
-//optional Bucket recipes
-//recipes.addShapeless("TNCOTCNaKCoil", <nuclearcraft:turbine_dynamo_coil_nak>, [<nuclearcraft:turbine_dynamo_coil_empty>, <forge:bucketfilled>.withTag({FluidName: "nak", Amount: 1000})]);
-//recipes.addShapeless("TNCOTCCoriumCoil", <nuclearcraft:turbine_dynamo_coil_corium>, [<nuclearcraft:turbine_dynamo_coil_empty>, <forge:bucketfilled>.withTag({FluidName: "corium", Amount: 1000})]);
-//recipes.addShapeless("TNCOTCHeliumCoil", <nuclearcraft:turbine_dynamo_coil_helium>, [<nuclearcraft:turbine_dynamo_coil_empty>, <forge:bucketfilled>.withTag({FluidName: "liquid_helium", Amount: 1000})]);
-//recipes.addShapeless("TNCOTCNitrogenCoil", <nuclearcraft:turbine_dynamo_coil_nitrogen>, [<nuclearcraft:turbine_dynamo_coil_empty>, <forge:bucketfilled>.withTag({FluidName: "liquid_nitrogen", Amount: 1000})]);
-//recipes.addShapeless("TNCOTCCryotheumCoil", <nuclearcraft:turbine_dynamo_coil_cryotheum>, [<nuclearcraft:turbine_dynamo_coil_empty>, <forge:bucketfilled>.withTag({FluidName: "cryotheum", Amount: 1000})]);
+//Optional Bucket recipes, uncomment the following recipes to enable!
+//recipes.addShapeless("NCOTCNaKCoil", <nuclearcraft:turbine_dynamo_coil_nak>, [<nuclearcraft:turbine_dynamo_coil_empty>, <forge:bucketfilled>.withTag({FluidName: "nak", Amount: 1000})]);
+//recipes.addShapeless("NCOTCCoriumCoil", <nuclearcraft:turbine_dynamo_coil_corium>, [<nuclearcraft:turbine_dynamo_coil_empty>, <forge:bucketfilled>.withTag({FluidName: "corium", Amount: 1000})]);
+//recipes.addShapeless("NCOTCHeliumCoil", <nuclearcraft:turbine_dynamo_coil_helium>, [<nuclearcraft:turbine_dynamo_coil_empty>, <forge:bucketfilled>.withTag({FluidName: "liquid_helium", Amount: 1000})]);
+//recipes.addShapeless("NCOTCNitrogenCoil", <nuclearcraft:turbine_dynamo_coil_nitrogen>, [<nuclearcraft:turbine_dynamo_coil_empty>, <forge:bucketfilled>.withTag({FluidName: "liquid_nitrogen", Amount: 1000})]);
+//recipes.addShapeless("NCOTCCryotheumCoil", <nuclearcraft:turbine_dynamo_coil_cryotheum>, [<nuclearcraft:turbine_dynamo_coil_empty>, <forge:bucketfilled>.withTag({FluidName: "cryotheum", Amount: 1000})]);
