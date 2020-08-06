@@ -21,15 +21,18 @@ mods.nuclearcraft.Registration.registerTurbineCoil("arsenic",1.09, "one iron coi
 mods.nuclearcraft.Registration.registerTurbineCoil("glowstone",1.08, "one magnesium coil && two copper coils");
 mods.nuclearcraft.Registration.registerTurbineCoil("nether",1.07, "two gold coils");
 mods.nuclearcraft.Registration.registerTurbineCoil("obsidian",1.07, "one carobbiite coil and one silver coil ");
-mods.nuclearcraft.Registration.registerTurbineCoil("nak",1.06, "two connector ");
+mods.nuclearcraft.Registration.registerTurbineCoil("nak",1.03, "two connector ");
 mods.nuclearcraft.Registration.registerTurbineCoil("corium",0.95, "one connector ");
 mods.nuclearcraft.Registration.registerTurbineCoil("end",1.13, "two axial connector && one magnesium coil ");
 mods.nuclearcraft.Registration.registerTurbineCoil("prismarine",1.08, "one beryllium coil && one connector ");
 mods.nuclearcraft.Registration.registerTurbineCoil("purpur",1.05, "one nak coil ");
-
-
-
-
+mods.nuclearcraft.Registration.registerTurbineCoil("lead",1.14, "one nether coil && one silver coil ");
+mods.nuclearcraft.Registration.registerTurbineCoil("manganese",1.11, "one arsenic coil && one villiaumite coil ");
+mods.nuclearcraft.Registration.registerTurbineCoil("nitrogen",1.12, "one prismarine coil");
+mods.nuclearcraft.Registration.registerTurbineCoil("helium",1.09, "exactly three copper coils");
+mods.nuclearcraft.Registration.registerTurbineCoil("cryotheum",1.80, "four magnesium coils");
+mods.nuclearcraft.Registration.registerTurbineCoil("enderium",1.20, "four connectors");
+mods.nuclearcraft.Registration.registerTurbineCoil("slime",1.15, "one obsidian coil");
 
 
 
