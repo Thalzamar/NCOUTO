@@ -23,7 +23,7 @@ mods.nuclearcraft.Registration.registerTurbineCoil("nether",1.07, "two gold coil
 mods.nuclearcraft.Registration.registerTurbineCoil("obsidian",1.07, "one carobbiite coil && one silver coil ");
 mods.nuclearcraft.Registration.registerTurbineCoil("nak",1.01, "two axial connector ");
 mods.nuclearcraft.Registration.registerTurbineCoil("corium",0.95, "one connector ");
-mods.nuclearcraft.Registration.registerTurbineCoil("end",1.13, "two axial connector && one magnesium coil ");
+mods.nuclearcraft.Registration.registerTurbineCoil("end",1.13, "two connector && one magnesium coil ");
 mods.nuclearcraft.Registration.registerTurbineCoil("prismarine",1.08, "one beryllium coil && one connector ");
 mods.nuclearcraft.Registration.registerTurbineCoil("purpur",1.06, "one nak coil ");
 mods.nuclearcraft.Registration.registerTurbineCoil("lead",1.14, "one nether coil && one silver coil ");
