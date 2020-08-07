@@ -1,4 +1,4 @@
-# TNCOTC
+# NCOTC
 Nuclearcraft Overhauled Turbine Coils
 
 this uses the ContentTweaker integration of Nuclearcraft:Overhauled to add 31 new Turbine Coils.
