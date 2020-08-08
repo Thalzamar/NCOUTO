@@ -34,3 +34,12 @@ Cryotheum: 4 Magnesium, 130%
 Enderium: 4 Connectors, 109%
 Slime: 1 Obsidian, 115%
 
+rotor/stator:
+Thorium Stator           65%
+DU Stator                70%
+Neptunium Blade    104%, 147%
+Plutonium Blade    107%, 153%
+Americium Blade	   114%, 167%
+Curium Blade       117%, 173%
+Berkelium Blade    125%, 190%
+Californium Blade  130%	 200%	
