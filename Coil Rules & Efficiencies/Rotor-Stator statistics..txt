@@ -1,5 +1,9 @@
 This file contains all the coils that NCOTC adds, with their rules and efficiencies.
-All coils listed have the format coilname: rules, efficiency, additional info
+All coils listed have the format:
+coilname: rules, efficiency, additional info
+
+All blades/stators have the format:
+name blade/stator, efficiency (blank for stator), expansion coefficient 
 
 Unfinished Coil: Any coil, 10%, Crafting ingredient for some coils
 Redstone: 1 Silver and 1 Copper, 120%
