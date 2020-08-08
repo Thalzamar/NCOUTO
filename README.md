@@ -1,5 +1,5 @@
-# NCOTC
-Nuclearcraft Overhauled Turbine Coils
+# NCOUTO
+Nuclearcraft Overhauled: Unrealistic Turbine Overhaul
 
 this uses the ContentTweaker integration of Nuclearcraft:Overhauled to add 31 new Turbine Coils.
 
