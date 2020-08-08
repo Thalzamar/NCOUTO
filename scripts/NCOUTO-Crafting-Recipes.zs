@@ -1,6 +1,6 @@
 import crafttweaker.item.IIngredient;
 import mods.nuclearcraft.Infuser;
-
+import mods.nuclearcraft.Enricher;
 
 val material_map = {redstone: <ore:dustRedstone>, graphite: <ore:ingotGraphite>, lithium: <ore:ingotLithium>, lapis: <ore:gemLapis>,
 emerald: <ore:gemEmerald>, diamond: <ore:gemDiamond>, villiaumite: <ore:gemVilliaumite>, fluorite: <ore:gemFluorite>, carobbiite: <ore:gemCarobbiite>,
@@ -67,6 +67,15 @@ for name, material in stator_map {
 	[[material, material, material],
 	[<nuclearcraft:turbine_rotor_stator>, <nuclearcraft:turbine_rotor_stator>, <nuclearcraft:turbine_rotor_stator>],
 	[material, material, material]]); }
+
+
+addRecipe(<nuclearcraft:alloy:13>, <liquid:hydrogen>*1000, <liquid:sic_vapour>*1000);
+Infuser.addRecipe(<nuclearcraft:alloy:13>, <liquid:sic_vapour>*1000, <nuclearcraft:part:13>);
+Infuser.addRecipe(<nuclearcraft:part:13>, <liquid:sic_vapour>*1000, <nuclearcraft:alloy:14>);
+
+
+
+
 
 
 
