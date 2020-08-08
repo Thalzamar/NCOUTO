@@ -26,7 +26,7 @@ Glowstone: 1 Magnesium and 2 Copper, 108%
 Nether Brick: 2 Gold, 107%
 Obsidian: 1 Carobbiite and 1 Silver, 107%
 Eutectic NaK: 2 Axial Connectors, 101%
-Corium: 1 Connector, 95%
+Corium: 1 Connector, 95%, 15mRads/t
 Endstone: 2 Connectors and 1 Magnesium, 113%
 Prismarine: 1 Beryllium and 1 Connector, 108%
 Purpur: 1 Eutectic NaK, 106%
