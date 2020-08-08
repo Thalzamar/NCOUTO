@@ -3,7 +3,7 @@ All coils listed have the format:
 coilname: rules, efficiency, additional info
 
 All blades/stators have the format:
-name blade/stator, efficiency (blank for stator), expansion coefficient 
+name blade/stator, efficiency (blank for stator), expansion coefficient, radiation 
 
 Unfinished Coil: Any coil, 10%, Crafting ingredient for some coils
 Redstone: 1 Silver and 1 Copper, 120%
@@ -39,11 +39,11 @@ Enderium: 4 Connectors, 109%
 Slime: 1 Obsidian, 115%
 
 rotor/stator:
-Thorium Stator           65%
-DU Stator                70%
-Neptunium Blade    104%, 147%
-Plutonium Blade    107%, 153%
-Americium Blade	   114%, 167%
-Curium Blade       117%, 173%
-Berkelium Blade    125%, 190%
-Californium Blade  130%	 200%	
+Thorium Stator            65%, 840nRads/t
+DU Stator                 70%,  20nRads/t
+Neptunium Blade    104%, 147%,  40nRads/t
+Plutonium Blade    107%, 153%, 240nRads/t
+Americium Blade	   114%, 167%,   1mRads/t
+Curium Blade       117%, 173%,   1mRads/t
+Berkelium Blade    125%, 190%,   6mRads/t
+Californium Blade  130%	 200%,  30mRads/t
