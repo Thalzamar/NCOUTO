@@ -1,7 +1,3 @@
-
-
-
-
 tile.nuclearcraft.turbine_dynamo_coil_redstone.name=Redstone Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_graphite.name=Graphite Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_lithium.name=Lithium Turbine Dynamo Coil
@@ -100,3 +96,19 @@ nc.sf.enderium_coil0=%s Enderium dynamo coil
 nc.sf.enderium_coil1=%s Enderium dynamo coils
 nc.sf.slime_coil0=%s Slimy dynamo coil
 nc.sf.slime_coil1=%s Slimy dynamo coils
+
+
+
+tile.nuclearcraft.turbine_rotor_stator_thorium.name=Thorium tempered Turbine Rotor Stator
+tile.nuclearcraft.turbine_rotor_stator_uranium.name=DU tempered Turbine Rotor Stator
+
+tile.nuclearcraft.turbine_rotor_blade_neptunium.name=Neptunium tempered Turbine Rotor Blade
+tile.nuclearcraft.turbine_rotor_blade_plutonium.name=Plutonium tempered Turbine Rotor Blade
+tile.nuclearcraft.turbine_rotor_blade_americium.name=Americium tempered Turbine Rotor Blade
+tile.nuclearcraft.turbine_rotor_blade_curium.name=Curium tempered Turbine Rotor Blade
+tile.nuclearcraft.turbine_rotor_blade_berkelium.name=Berkelium tempered Turbine Rotor Blade
+tile.nuclearcraft.turbine_rotor_blade_californium.name=Californium tempered Turbine Rotor Blade
+
+
+
+
