@@ -1,0 +1,49 @@
+This file contains all the coils that NCOTC adds, with their rules and efficiencies.
+All coils listed have the format:
+coilname: rules, efficiency, additional info
+
+All blades/stators have the format:
+name blade/stator, efficiency (blank for stator), expansion coefficient 
+
+Unfinished Coil: Any coil, 10%, Crafting ingredient for some coils
+Redstone: 1 Silver and 1 Copper, 120%
+Graphite: 1 Beryllium, 107%
+Lithium: 1 Graphite and 1 Connector, 110%
+Lapis: 2 Silver, 121%
+Emerald: 1 Graphite and 1 Lapis, 118%
+Diamond: 2 Axial Graphite and 2 Axial Copper, 122%
+Villiaumite: Exactly 2 Axial Copper, 116%
+Fluorite: 1 Graphite and 1 Magnesium, 117%
+Carobbiite: 1 Redstone and 1 Gold, 121%
+Hard Carbon: 2 Axial Villiaumite, 122%
+Zircaloy: 1 Hard Carbon, 120%
+Thermoconducting: 1 Magnesium and 1 Aluminum, 135%
+Iron: 1 Magnesium and 1 Bearing, 97%
+Boron: 2 Axial Iron, 111%
+Arsenic: 1 Iron or 3 Graphite, 109%
+Quartz: 2 Axial Silver, 128%
+Glowstone: 1 Magnesium and 2 Copper, 108%
+Nether Brick: 2 Gold, 107%
+Obsidian: 1 Carobbiite and 1 Silver, 107%
+Eutectic NaK: 2 Axial Connectors, 101%
+Corium: 1 Connector, 95%
+Endstone: 2 Connectors and 1 Magnesium, 113%
+Prismarine: 1 Beryllium and 1 Connector, 108%
+Purpur: 1 Eutectic NaK, 106%
+Lead: 1 Nether Brick and 1 Silver, 114%
+Manganese: 1 Arsenic and 1 Villiaumite, 111%
+Nitrogen: 1 Prismarine, 112%
+Helium: Exactly 3 Copper, 109%
+Cryotheum: 4 Magnesium, 130%
+Enderium: 4 Connectors, 109%
+Slime: 1 Obsidian, 115%
+
+rotor/stator:
+Thorium Stator           65%
+DU Stator                70%
+Neptunium Blade    104%, 147%
+Plutonium Blade    107%, 153%
+Americium Blade	   114%, 167%
+Curium Blade       117%, 173%
+Berkelium Blade    125%, 190%
+Californium Blade  130%	 200%	
