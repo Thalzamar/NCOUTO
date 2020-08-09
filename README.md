@@ -7,7 +7,7 @@ Download the Repository as .zip and place the recource and script folders in you
 
 This uses the ContentTweaker integration of Nuclearcraft:Overhauled to add 32 new Turbine Coils, 6 new Rotor-Blades and 2 new Stators.
 
-Please read the Customparts information.txt for a short overview what has been added.
+Please read the Wiki page for a short overview of what has been added.
 
 These Coils are for people who want some extra free energy from their turbine, don't expect a giant increase in Coil-Efficiency.
 
