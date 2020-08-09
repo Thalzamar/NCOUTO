@@ -30,6 +30,7 @@ tile.nuclearcraft.turbine_dynamo_coil_helium.name=Liquid Helium Turbine Dynamo C
 tile.nuclearcraft.turbine_dynamo_coil_cryotheum.name=Cryo-stablized Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_enderium.name=Enderium Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_slime.name=Slimy Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_tin.name=Tin Turbine Dynamo Coil
 
 
 nc.sf.redstone_coil0=%s Redstone dynamo coil
@@ -96,7 +97,8 @@ nc.sf.enderium_coil0=%s Enderium dynamo coil
 nc.sf.enderium_coil1=%s Enderium dynamo coils
 nc.sf.slime_coil0=%s Slimy dynamo coil
 nc.sf.slime_coil1=%s Slimy dynamo coils
-
+nc.sf.tin_coil0=%s Tin dynamo coil
+nc.sf.tin_coil1=%s Tin dynamo coils
 
 
 tile.nuclearcraft.turbine_rotor_stator_thorium.name=Thorium tempered Turbine Rotor Stator
