@@ -1,7 +1,7 @@
 # NCOUTO
 Nuclearcraft Overhauled: Unrealistic Turbine Overhaul
 
-this uses the ContentTweaker integration of Nuclearcraft:Overhauled to add 31 new Turbine Coils,6 new Rotor-Blades and 2 new Stators.
+this uses the ContentTweaker integration of Nuclearcraft:Overhauled to add 32 new Turbine Coils, 6 new Rotor-Blades and 2 new Stators.
 
 Please read the Customparts information.txt for a short overview what has been added.
 
