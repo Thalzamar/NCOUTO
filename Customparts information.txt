@@ -37,6 +37,7 @@ Helium: Exactly 3 Copper, 109%
 Cryotheum: 4 Magnesium, 130%
 Enderium: 4 Connectors, 109%
 Slime: 1 Obsidian, 115%
+tin: 2 Graphite, 109%
 
 rotor/stator:
 Thorium Stator            65%, 840nRads/t
