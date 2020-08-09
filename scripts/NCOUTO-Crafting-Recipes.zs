@@ -7,7 +7,7 @@ emerald: <ore:gemEmerald>, diamond: <ore:gemDiamond>, villiaumite: <ore:gemVilli
 hardcarbon: <ore:ingotHardCarbon>, zircaloy: <ore:ingotZircaloy>, thermoconducting: <ore:ingotThermoconducting>, iron: <ore:ingotIron>,
 boron: <ore:ingotBoron>, quartz: <ore:gemQuartz>, arsenic: <ore:dustArsenic>, glowstone: <ore:dustGlowstone>, nether: <ore:ingotBrickNether>,
 obsidian: <ore:obsidian>, end: <ore:endstone>, prismarine: <ore:gemPrismarine>, purpur: <minecraft:purpur_block>, lead: <ore:ingotLead>, 
-manganese: <ore:ingotManganese>, slime: <minecraft:slime_ball>, enderium: <ore:ingotEnderium>, cryotheum: <ore:dustCryotheum>} as IIngredient[string];
+manganese: <ore:ingotManganese>, slime: <ore:slime_ball>, enderium: <ore:ingotEnderium>, cryotheum: <ore:dustCryotheum>, tin: <ore:ingotTin> } as IIngredient[string];
 
 for name, material in material_map {
 	recipes.addShaped("ncotc" ~ name ~ "coil", itemUtils.getItem("nuclearcraft:turbine_dynamo_coil_" ~ name)*2,
@@ -69,9 +69,10 @@ for name, material in stator_map {
 	[material, material, material]]); }
 
 
-addRecipe(<nuclearcraft:alloy:13>, <liquid:hydrogen>*1000, <liquid:sic_vapour>*1000);
-Infuser.addRecipe(<nuclearcraft:alloy:13>, <liquid:sic_vapour>*1000, <nuclearcraft:part:13>);
-Infuser.addRecipe(<nuclearcraft:part:13>, <liquid:sic_vapour>*1000, <nuclearcraft:alloy:14>);
+Enricher.addRecipe(<nuclearcraft:alloy:13>, <liquid:hydrogen>*1000, <liquid:sic_vapor>*1000);
+Infuser.addRecipe(<nuclearcraft:alloy:13>, <liquid:sic_vapor>*1000, <nuclearcraft:part:13>);
+Infuser.addRecipe(<nuclearcraft:part:13>, <liquid:sic_vapor>*1000, <nuclearcraft:alloy:14>);
+
 
 
 
