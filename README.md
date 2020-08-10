@@ -13,4 +13,4 @@ These Coils are for people who want some extra free energy from their turbine, d
 
 The new Stators and Blades may be better than the default but in large Turbines Radiation may become a problem.
 
-For using Kurketchovs Turbine Calculator replace the native Turbine Calculator.json with the one found in the here, don't use every part at the same time else the Calculator may break and it takes forever. Choose carefully what you want to use and experiment to get the best for your Turbine size.
+For using the custom blades & stators in [Kurtchekov's Turbine Calculator](https://github.com/Kurtchekov/TurbineCalculator/releases) replace the native Turbine Calculator.json with the one found in the here, don't use every part at the same time else the Calculator may break and it takes forever. Choose carefully what you want to use and experiment to get the best for your Turbine size.
