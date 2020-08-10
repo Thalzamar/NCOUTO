@@ -1,4 +1,5 @@
 import crafttweaker.item.IIngredient;
+import crafttweaker.liquid.ILiquidStack;
 import mods.nuclearcraft.Infuser;
 import mods.nuclearcraft.Enricher;
 
@@ -10,19 +11,18 @@ obsidian: <ore:obsidian>, end: <ore:endstone>, prismarine: <ore:gemPrismarine>, 
 manganese: <ore:ingotManganese>, slime: <ore:slimeball>, enderium: <ore:ingotEnderium>, cryotheum: <ore:dustCryotheum>, tin: <ore:ingotTin> } as IIngredient[string];
 
 for name, material in material_map {
-	recipes.addShaped("ncotc" ~ name ~ "coil", itemUtils.getItem("nuclearcraft:turbine_dynamo_coil_" ~ name)*2,
+	recipes.addShaped("ncouto" ~ name ~ "coil", itemUtils.getItem("nuclearcraft:turbine_dynamo_coil_" ~ name)*2,
 	[[material, material, material],
 	[<nuclearcraft:alloy:15>, <nuclearcraft:alloy:1>, <nuclearcraft:alloy:15>],
 	[material, material, material]]); }
 
-recipes.addShaped("NCOTCEmptyCoil", <nuclearcraft:turbine_dynamo_coil_empty>*2, 
+recipes.addShaped("ncoutoEmptyCoil", <nuclearcraft:turbine_dynamo_coil_empty>*2, 
 [[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
 [<nuclearcraft:alloy:15>, <nuclearcraft:alloy:1>, <nuclearcraft:alloy:15>],
 [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]]);
 
 Infuser.addRecipe(<nuclearcraft:turbine_dynamo_coil_empty>, <liquid:nak>*1296, <nuclearcraft:turbine_dynamo_coil_nak>);
 Infuser.addRecipe(<nuclearcraft:turbine_dynamo_coil_empty>, <liquid:corium>*1000, <nuclearcraft:turbine_dynamo_coil_corium>, 1.0 , 1.0, 15.0e-6);
-mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_dynamo_coil_corium>, 15.0e-6);
 Infuser.addRecipe(<nuclearcraft:turbine_dynamo_coil_empty>, <liquid:liquid_helium>*1000, <nuclearcraft:turbine_dynamo_coil_helium>);
 Infuser.addRecipe(<nuclearcraft:turbine_dynamo_coil_empty>, <liquid:liquid_nitrogen>*1000, <nuclearcraft:turbine_dynamo_coil_nitrogen>);
 Infuser.addRecipe(<nuclearcraft:turbine_dynamo_coil_empty>, <liquid:enderium>*432, <nuclearcraft:turbine_dynamo_coil_enderium>);
@@ -30,52 +30,31 @@ Infuser.addRecipe(<nuclearcraft:turbine_dynamo_coil_empty>, <liquid:cryotheum>*7
 
 
 //optional Bucket recipes
-//recipes.addShapeless("TNCOTCCoriumCoil", <nuclearcraft:turbine_dynamo_coil_corium>, [<nuclearcraft:turbine_dynamo_coil_empty>, <forge:bucketfilled>.withTag({FluidName: "corium", Amount: 1000})]);
-//recipes.addShapeless("TNCOTCHeliumCoil", <nuclearcraft:turbine_dynamo_coil_helium>, [<nuclearcraft:turbine_dynamo_coil_empty>, <forge:bucketfilled>.withTag({FluidName: "liquid_helium", Amount: 1000})]);
-//recipes.addShapeless("TNCOTCNitrogenCoil", <nuclearcraft:turbine_dynamo_coil_nitrogen>, [<nuclearcraft:turbine_dynamo_coil_empty>, <forge:bucketfilled>.withTag({FluidName: "liquid_nitrogen", Amount: 1000})]);
+//recipes.addShapeless("ncoutoCoriumCoil", <nuclearcraft:turbine_dynamo_coil_corium>, [<nuclearcraft:turbine_dynamo_coil_empty>, <forge:bucketfilled>.withTag({FluidName: "corium", Amount: 1000})]);
+//recipes.addShapeless("ncoutoHeliumCoil", <nuclearcraft:turbine_dynamo_coil_helium>, [<nuclearcraft:turbine_dynamo_coil_empty>, <forge:bucketfilled>.withTag({FluidName: "liquid_helium", Amount: 1000})]);
+//recipes.addShapeless("ncoutoNitrogenCoil", <nuclearcraft:turbine_dynamo_coil_nitrogen>, [<nuclearcraft:turbine_dynamo_coil_empty>, <forge:bucketfilled>.withTag({FluidName: "liquid_nitrogen", Amount: 1000})]);
 
-
-val steelblade_map = { neptunium: <nuclearcraft:neptunium:5>, plutonium: <nuclearcraft:plutonium:15> } as IIngredient[string];
-for name, material in steelblade_map {
-	recipes.addShaped("ncotc" ~ name ~ "blade", itemUtils.getItem("nuclearcraft:turbine_rotor_blade_" ~ name)*3,
-	[[material, material, material],
-	[<nuclearcraft:turbine_rotor_blade_steel>, <nuclearcraft:turbine_rotor_blade_steel>, <nuclearcraft:turbine_rotor_blade_steel>],
-	[material, material, material]]); }
-
-
-val extremeblade_map = { americium: <nuclearcraft:americium:10>, curium: <nuclearcraft:curium:10> } as IIngredient[string];
-for name, material in extremeblade_map {
-	recipes.addShaped("ncotc" ~ name ~ "blade", itemUtils.getItem("nuclearcraft:turbine_rotor_blade_" ~ name)*3,
-	[[material, material, material],
-	[<nuclearcraft:turbine_rotor_blade_extreme>, <nuclearcraft:turbine_rotor_blade_extreme>, <nuclearcraft:turbine_rotor_blade_extreme>],
-	[material, material, material]]); }
-
-val sicblade_map = { berkelium: <nuclearcraft:berkelium>, californium: <nuclearcraft:californium:5> } as IIngredient[string];
-for name, material in sicblade_map {
-	recipes.addShaped("ncotc" ~ name ~ "blade", itemUtils.getItem("nuclearcraft:turbine_rotor_blade_" ~ name)*3,
-	[[material, material, material],
-	[<nuclearcraft:turbine_rotor_blade_sic_sic_cmc>, <nuclearcraft:turbine_rotor_blade_sic_sic_cmc>, <nuclearcraft:turbine_rotor_blade_sic_sic_cmc>],
-	[material, material, material]]); }
-
-
-val stator_map = { thorium: <nuclearcraft:fission_dust:3>, uranium: <nuclearcraft:uranium:10> } as IIngredient[string];
-for name, material in stator_map {
-	recipes.addShaped("ncotc" ~ name ~ "blade", itemUtils.getItem("nuclearcraft:turbine_rotor_stator_" ~ name)*3,
-	[[material, material, material],
-	[<nuclearcraft:turbine_rotor_stator>, <nuclearcraft:turbine_rotor_stator>, <nuclearcraft:turbine_rotor_stator>],
-	[material, material, material]]); }
+Infuser.addRecipe(<nuclearcraft:turbine_rotor_stator>*4, <liquid:tbu>*1152, <nuclearcraft:turbine_rotor_stator_thorium>*4, 1.0, 1.0, 3.15e-6);
+Infuser.addRecipe(<nuclearcraft:turbine_rotor_stator>*4, <liquid:uranium_238>*1152, <nuclearcraft:turbine_rotor_stator_uranium>*4, 1.0, 1.0, 2.0e-6);
+Infuser.addRecipe(<nuclearcraft:turbine_rotor_blade_steel>*4, <liquid:neptunium_237>*1152, <nuclearcraft:turbine_rotor_blade_neptunium>*4, 1.0, 1.0, 4.0e-6);
+Infuser.addRecipe(<nuclearcraft:turbine_rotor_blade_steel>*4, <liquid:plutonium_242>*1152, <nuclearcraft:turbine_rotor_blade_plutonium>*4, 1.0, 1.0, 24.0e-6);
+Infuser.addRecipe(<nuclearcraft:turbine_rotor_blade_extreme>*4, <liquid:americium_243>*1152, <nuclearcraft:turbine_rotor_blade_americium>*4, 1.0, 1.0, 1.0e-3);
+Infuser.addRecipe(<nuclearcraft:turbine_rotor_blade_extreme>*4, <liquid:curium_246>*1152, <nuclearcraft:turbine_rotor_blade_curium>*4, 1.0, 1.0, 1.0e-3);
+Infuser.addRecipe(<nuclearcraft:turbine_rotor_blade_sic_sic_cmc>*4, <liquid:berkelium_247>*1152, <nuclearcraft:turbine_rotor_blade_berkelium>*4, 1.0, 1.0, 6.0e-3);
+Infuser.addRecipe(<nuclearcraft:turbine_rotor_blade_sic_sic_cmc>*4, <liquid:californium_250>*1152, <nuclearcraft:turbine_rotor_blade_californium>*4, 1.0, 1.0, 3.0);
 
 
 Enricher.addRecipe(<nuclearcraft:alloy:13>, <liquid:hydrogen>*1000, <liquid:sic_vapor>*1000);
 Infuser.addRecipe(<nuclearcraft:alloy:13>, <liquid:sic_vapor>*1000, <nuclearcraft:part:13>);
 Infuser.addRecipe(<nuclearcraft:part:13>, <liquid:sic_vapor>*1000, <nuclearcraft:alloy:14>);
 
-
+mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_dynamo_coil_corium>, 15.0e-6);
 mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_stator_thorium>, 840.0e-9);
 mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_stator_uranium>, 20.0e-9);
-mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_blade_americium>, 1.0e-3);
-mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_blade_berkelium>, 6.0e-3);
-mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_blade_californium>, 30.0e-3);
-mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_blade_curium>, 1.0e-3);
 mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_blade_neptunium>, 40.0e-9);
 mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_blade_plutonium>, 240.0e-9);
+mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_blade_americium>, 1.0e-3);
+mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_blade_curium>, 1.0e-3);
+mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_blade_berkelium>, 6.0e-3);
+mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_blade_californium>, 30.0e-3);
+
