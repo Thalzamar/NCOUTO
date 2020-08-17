@@ -5,7 +5,9 @@ Requires Nuclearcraft:Overhauled version 2o.3.4 or newer.
 
 Download the Repository as .zip and place the recource and script folders in your Minecraft instance.
 
-This uses the ContentTweaker integration of Nuclearcraft:Overhauled to add 32 new Turbine Coils, 6 new Rotor-Blades and 2 new Stators.
+This uses the ContentTweaker integration of Nuclearcraft: Overhauled to add 32 new Turbine Coils, 6 new Rotor-Blades and 2 new Stators.
+
+As of the latest update, 3 new Turbine Coils have been added, enabled when [QMD](https://github.com/lach01298/QMD/) is installed
 
 Please read the Wiki page for a short overview of what has been added.
 
