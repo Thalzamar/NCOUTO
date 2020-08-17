@@ -113,4 +113,19 @@ tile.nuclearcraft.turbine_rotor_blade_californium.name=Californium tempered Turb
 
 
 
+//QMD Stuff
+tile.nuclearcraft.turbine_dynamo_coil_chrom.name=Chromium Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_cobalt.name=Cobalt Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_hafnium.name=Hafnium Turbine Dynamo Coil
+
+
+
+
+nc.sf.chrom_coil0=%s Chromium dynamo coil
+nc.sf.chrom_coil1=%s Chromium dynamo coils
+nc.sf.cobalt_coil0=%s Cobalt dynamo coil
+nc.sf.cobalt_coil1=%s Cobalt dynamo coils
+nc.sf.cobalt_coil0=%s Hafnium dynamo coil
+nc.sf.cobalt_coil1=%s Hafnium dynamo coils
+
 
