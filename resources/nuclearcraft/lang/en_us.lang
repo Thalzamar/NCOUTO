@@ -112,11 +112,11 @@ tile.nuclearcraft.turbine_rotor_blade_berkelium.name=Berkelium tempered Turbine 
 tile.nuclearcraft.turbine_rotor_blade_californium.name=Californium tempered Turbine Rotor Blade
 
 
-
 //QMD Stuff
 tile.nuclearcraft.turbine_dynamo_coil_chrom.name=Chromium Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_cobalt.name=Cobalt Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_hafnium.name=Hafnium Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_neo.name=Neodymium Turbine Dynamo Coil
 
 
 
@@ -127,5 +127,4 @@ nc.sf.cobalt_coil0=%s Cobalt dynamo coil
 nc.sf.cobalt_coil1=%s Cobalt dynamo coils
 nc.sf.cobalt_coil0=%s Hafnium dynamo coil
 nc.sf.cobalt_coil1=%s Hafnium dynamo coils
-
 
