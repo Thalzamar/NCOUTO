@@ -16,6 +16,8 @@ for name, material in material_map {
 	[<nuclearcraft:alloy:15>, <nuclearcraft:alloy:1>, <nuclearcraft:alloy:15>],
 	[material, material, material]]); }
 
+
+
 if (loadedMods has "qmd") {
 	val qmd_materials = {chrom: <ore:ingotChromium>, cobalt: <ore:ingotCobalt>, hafnium: <ore:ingotHafnium>, neo: <ore:ingotNeodymium>,
 	nickel: <ore:ingotNickel>, niobium: <ore:ingotNiobium>, calcium: <ore:ingotCalcium>} as IIngredient[string];
@@ -25,6 +27,16 @@ if (loadedMods has "qmd") {
 		[<nuclearcraft:alloy:15>, <nuclearcraft:alloy:1>, <nuclearcraft:alloy:15>],
 		[material, material, material]]); }
 	}
+	
+if (loadedMods has "qmd") {
+	val qmd_materials = {niosteel: <nuclearcraft:turbine_rotor_blade_steel>,extremenio: <nuclearcraft:turbine_rotor_blade_extreme>, sicnio: <nuclearcraft:turbine_rotor_blade_sic_sic_cmc> } as IIngredient[string];
+	for name, material in qmd_materials {
+		recipes.addShaped("ncouto" ~ name ~ "blade", itemUtils.getItem("nuclearcraft:turbine_rotor_blade_" ~ name)*4,
+		[[material, <ore:ingotNiobium>, material],
+		[<ore:ingotNiobium>, <ore:ingotNiobium>, <ore:ingotNiobium>],
+		[material, <ore:ingotNiobium>, material]]); }
+	}
+
 
 recipes.addShaped("ncoutoEmptyCoil", <nuclearcraft:turbine_dynamo_coil_empty>*2, 
 [[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
