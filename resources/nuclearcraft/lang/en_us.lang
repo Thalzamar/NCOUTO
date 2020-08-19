@@ -133,3 +133,12 @@ nc.sf.nickel_coil0=%s Nickel dynamo coil
 nc.sf.nickel_coil1=%s Nickel dynamo coils
 nc.sf.niobium_coil0=%s Niobium dynamo coil
 nc.sf.niobium_coil1=%s Niobium dynamo coils
+
+
+
+
+
+
+tile.nuclearcraft.turbine_rotor_blade_niosteel.name=Niobium-Steel Alloy Turbine Rotor Blade
+tile.nuclearcraft.turbine_rotor_blade_extremenio.name=Extreme-Niobium Alloy Turbine Rotor Blade
+tile.nuclearcraft.turbine_rotor_blade_sicnio.name=SiC-Niobium-CMC Turbine Rotor Blade
