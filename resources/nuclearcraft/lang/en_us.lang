@@ -112,24 +112,3 @@ tile.nuclearcraft.turbine_rotor_blade_berkelium.name=Berkelium tempered Turbine 
 tile.nuclearcraft.turbine_rotor_blade_californium.name=Californium tempered Turbine Rotor Blade
 
 
-//QMD Stuff
-tile.nuclearcraft.turbine_dynamo_coil_chrom.name=Chromium Turbine Dynamo Coil
-tile.nuclearcraft.turbine_dynamo_coil_cobalt.name=Cobalt Turbine Dynamo Coil
-tile.nuclearcraft.turbine_dynamo_coil_hafnium.name=Hafnium Turbine Dynamo Coil
-tile.nuclearcraft.turbine_dynamo_coil_neo.name=Neodymium Turbine Dynamo Coil
-tile.nuclearcraft.turbine_dynamo_coil_calcium.name=Calcium Turbine Dynamo Coil
-tile.nuclearcraft.turbine_dynamo_coil_nickel.name=Nickel Turbine Dynamo Coil
-tile.nuclearcraft.turbine_dynamo_coil_niobium.name=Niobium Turbine Dynamo Coil
-
-nc.sf.chrom_coil0=%s Chromium dynamo coil
-nc.sf.chrom_coil1=%s Chromium dynamo coils
-nc.sf.cobalt_coil0=%s Cobalt dynamo coil
-nc.sf.cobalt_coil1=%s Cobalt dynamo coils
-nc.sf.hafnium_coil0=%s Hafnium dynamo coil
-nc.sf.hafnium_coil1=%s Hafnium dynamo coils
-nc.sf.calcium_coil0=%s Calcium dynamo coil
-nc.sf.calcium_coil1=%s Calcium dynamo coils
-nc.sf.nickel_coil0=%s Nickel dynamo coil
-nc.sf.nickel_coil1=%s Nickel dynamo coils
-nc.sf.niobium_coil0=%s Niobium dynamo coil
-nc.sf.niobium_coil1=%s Niobium dynamo coils
