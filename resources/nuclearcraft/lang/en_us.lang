@@ -120,6 +120,12 @@ tile.nuclearcraft.turbine_dynamo_coil_neo.name=Neodymium Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_calcium.name=Calcium Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_nickel.name=Nickel Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_niobium.name=Niobium Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_osmium.name=Osmium Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_plat.name=Platinum Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_kalium.name=Potassium Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_natrium.name=Sodium Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_strontium.name=Strontium Turbine Dynamo Coil
+
 
 nc.sf.chrom_coil0=%s Chromium dynamo coil
 nc.sf.chrom_coil1=%s Chromium dynamo coils
@@ -133,9 +139,16 @@ nc.sf.nickel_coil0=%s Nickel dynamo coil
 nc.sf.nickel_coil1=%s Nickel dynamo coils
 nc.sf.niobium_coil0=%s Niobium dynamo coil
 nc.sf.niobium_coil1=%s Niobium dynamo coils
-
-
-
+nc.sf.osmium_coil0=%s Osmium dynamo coil
+nc.sf.osmium_coil1=%s Osmium dynamo coils
+nc.sf.plat_coil0=%s Platinum dynamo coil
+nc.sf.plat_coil1=%s Platinum dynamo coils
+nc.sf.kalium_coil0=%s Potassium dynamo coil
+nc.sf.kalium_coil1=%s Potassium dynamo coils
+nc.sf.natrium_coil0=%s Sodium dynamo coil
+nc.sf.natrium_coil1=%s Sodium dynamo coils
+nc.sf.strontium_coil0=%s Strontium dynamo coil
+nc.sf.strontium_coil1=%s Strontium dynamo coils
 
 
 
