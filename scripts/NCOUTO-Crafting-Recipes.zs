@@ -20,7 +20,8 @@ for name, material in material_map {
 
 if (loadedMods has "qmd") {
 	val qmd_materials = {chrom: <ore:ingotChromium>, cobalt: <ore:ingotCobalt>, hafnium: <ore:ingotHafnium>, neo: <ore:ingotNeodymium>,
-	nickel: <ore:ingotNickel>, niobium: <ore:ingotNiobium>, calcium: <ore:ingotCalcium>} as IIngredient[string];
+	nickel: <ore:ingotNickel>, niobium: <ore:ingotNiobium>, calcium: <ore:ingotCalcium>, osmium: <ore:ingotOsmium>, plat: <ore:ingotPlatinum>,
+	kalium: <ore:ingotPotassium>, natrium: <ore:ingotSodium>, strontium: <ore:ingotStrontium>} as IIngredient[string];
 	for name, material in qmd_materials {
 		recipes.addShaped("ncouto" ~ name ~ "coil", itemUtils.getItem("nuclearcraft:turbine_dynamo_coil_" ~ name)*2,
 		[[material, material, material],
