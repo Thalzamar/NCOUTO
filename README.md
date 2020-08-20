@@ -7,7 +7,7 @@ Download the Repository as .zip and place the recource and script folders in you
 
 This uses the ContentTweaker integration of Nuclearcraft: Overhauled to add 32 new Turbine Coils, 6 new Rotor-Blades and 2 new Stators.
 
-7 additional coils and 3 additional blades are enabled for use and crafting when [QMD](https://github.com/lach01298/QMD/) is installed.
+12 additional coils and 3 additional blades are enabled for use and crafting when [QMD](https://github.com/lach01298/QMD/) is installed.
 
 Please read the Wiki page for a short overview of what has been added.
 
