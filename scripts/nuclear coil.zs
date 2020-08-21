@@ -34,6 +34,7 @@ mods.nuclearcraft.Registration.registerTurbineCoil("cryotheum",1.30, "four magne
 mods.nuclearcraft.Registration.registerTurbineCoil("enderium",1.09, "four connectors");
 mods.nuclearcraft.Registration.registerTurbineCoil("slime",1.15, "one obsidian coil");
 mods.nuclearcraft.Registration.registerTurbineCoil("tin",1.09, "two graphite graphite coils");
+mods.nuclearcraft.Registration.registerTurbineCoil("smore",1.20, "one thermoconducting coil");
 
 
 
