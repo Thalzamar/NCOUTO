@@ -31,7 +31,7 @@ tile.nuclearcraft.turbine_dynamo_coil_cryotheum.name=Cryo-stablized Turbine Dyna
 tile.nuclearcraft.turbine_dynamo_coil_enderium.name=Enderium Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_slime.name=Slimy Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_tin.name=Tin Turbine Dynamo Coil
-tile.nuclearcraft.turbine_dynamo_coil_smore.name=S'more Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_smore.name=S'more Turbine Dynamo S'moil
 
 nc.sf.redstone_coil0=%s Redstone dynamo coil
 nc.sf.redstone_coil1=%s Redstone dynamo coils
