@@ -44,6 +44,11 @@ recipes.addShaped("ncoutoEmptyCoil", <nuclearcraft:turbine_dynamo_coil_empty>*2,
 [<nuclearcraft:alloy:15>, <nuclearcraft:alloy:1>, <nuclearcraft:alloy:15>],
 [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]]);
 
+recipes.addShaped("ncoutosmorecoil", <nuclearcraft:turbine_dynamo_coil_smore>*2,
+	[[<nuclearcraft:smore>, <nuclearcraft:moresmore>, <nuclearcraft:foursmore>],
+	[<nuclearcraft:alloy:15>, <nuclearcraft:alloy:1>, <nuclearcraft:alloy:15>],
+	[<nuclearcraft:smore>, <nuclearcraft:moresmore>, <nuclearcraft:foursmore>]]);
+
 Infuser.addRecipe(<nuclearcraft:turbine_dynamo_coil_empty>, <liquid:nak>*1296, <nuclearcraft:turbine_dynamo_coil_nak>);
 Infuser.addRecipe(<nuclearcraft:turbine_dynamo_coil_empty>, <liquid:corium>*1000, <nuclearcraft:turbine_dynamo_coil_corium>, 1.0 , 1.0, 15.0e-6);
 Infuser.addRecipe(<nuclearcraft:turbine_dynamo_coil_empty>, <liquid:liquid_helium>*1000, <nuclearcraft:turbine_dynamo_coil_helium>);
