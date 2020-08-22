@@ -13,6 +13,8 @@ mods.nuclearcraft.Registration.registerTurbineCoil("plat", 1.08, "two axial gold
 mods.nuclearcraft.Registration.registerTurbineCoil("kalium", 1.09, "one purpur coil && one copper coil");
 mods.nuclearcraft.Registration.registerTurbineCoil("natrium", 1.13, "one helium coil && one nitrogen coil");
 mods.nuclearcraft.Registration.registerTurbineCoil("strontium", 1.14, "exactly two axial graphite coils");
+mods.nuclearcraft.Registration.registerTurbineCoil("titan", 1.25, "two axial strontium coils && one copper coil");
+mods.nuclearcraft.Registration.registerTurbineCoil("wolfram", 1.20, "one titan coil");
 
 
 }
