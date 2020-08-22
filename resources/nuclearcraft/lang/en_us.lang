@@ -103,7 +103,6 @@ nc.sf.smore_coil0=%s S'more dynamo coil
 nc.sf.smore_coil1=%s S'more dynamo coils
 
 
-
 tile.nuclearcraft.turbine_rotor_stator_thorium.name=Thorium tempered Turbine Rotor Stator
 tile.nuclearcraft.turbine_rotor_stator_uranium.name=DU tempered Turbine Rotor Stator
 
@@ -128,6 +127,8 @@ tile.nuclearcraft.turbine_dynamo_coil_plat.name=Platinum Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_kalium.name=Potassium Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_natrium.name=Sodium Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_strontium.name=Strontium Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_titan.name=Titanium Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_wolfram.name=Tungsten Turbine Dynamo Coil
 
 
 nc.sf.chrom_coil0=%s Chromium dynamo coil
@@ -152,6 +153,10 @@ nc.sf.natrium_coil0=%s Sodium dynamo coil
 nc.sf.natrium_coil1=%s Sodium dynamo coils
 nc.sf.strontium_coil0=%s Strontium dynamo coil
 nc.sf.strontium_coil1=%s Strontium dynamo coils
+nc.sf.titan_coil0=%s Titanium dynamo coil
+nc.sf.titan_coil1=%s Titanium dynamo coils
+nc.sf.wolfram_coil0=%s Tungsten dynamo coil
+nc.sf.wolfram_coil1=%s Tungsten dynamo coils
 
 
 
