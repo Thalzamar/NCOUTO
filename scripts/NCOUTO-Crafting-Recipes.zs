@@ -21,7 +21,7 @@ for name, material in material_map {
 if (loadedMods has "qmd") {
 	val qmd_materials = {chrom: <ore:ingotChromium>, cobalt: <ore:ingotCobalt>, hafnium: <ore:ingotHafnium>, neo: <ore:ingotNeodymium>,
 	nickel: <ore:ingotNickel>, niobium: <ore:ingotNiobium>, calcium: <ore:ingotCalcium>, osmium: <ore:ingotOsmium>, plat: <ore:ingotPlatinum>,
-	kalium: <ore:ingotPotassium>, natrium: <ore:ingotSodium>, strontium: <ore:ingotStrontium>} as IIngredient[string];
+	kalium: <ore:ingotPotassium>, natrium: <ore:ingotSodium>, strontium: <ore:ingotStrontium>, titan: <ore:ingotTitanium>, wolfram: <ore:ingotTungsten>} as IIngredient[string];
 	for name, material in qmd_materials {
 		recipes.addShaped("ncouto" ~ name ~ "coil", itemUtils.getItem("nuclearcraft:turbine_dynamo_coil_" ~ name)*2,
 		[[material, material, material],
@@ -38,7 +38,23 @@ if (loadedMods has "qmd") {
 		[material, <ore:ingotNiobium>, material]]); }
 	}
 
-
+if (loadedMods has "trinity") {
+	recipes.addShaped("ncoutowitheritecoil", <nuclearcraft:turbine_dynamo_coil_witherite>*2, 
+	[[<ore:gemWitherite>, <ore:gemWitherite>, <ore:gemWitherite>],
+	[<nuclearcraft:alloy:15>, <nuclearcraft:alloy:1>, <nuclearcraft:alloy:15>],
+	[<ore:gemWitherite>, <ore:gemWitherite>, <ore:gemWitherite>]]);
+	
+	recipes.addShaped("ncoutobaratolcoil", <nuclearcraft:turbine_dynamo_coil_baratol>*2, 
+	[[<trinity:solid_baratol>, <trinity:solid_baratol>, <trinity:solid_baratol>],
+	[<nuclearcraft:alloy:15>, <nuclearcraft:alloy:1>, <nuclearcraft:alloy:15>],
+	[<trinity:solid_baratol>, <trinity:solid_baratol>, <trinity:solid_baratol>]]);
+	
+	recipes.addShaped("ncoutotrinititestator", <nuclearcraft:turbine_rotor_stator_trinitite>*4, 
+	[[<nuclearcraft:turbine_rotor_stator>, <ore:gemTrinitite>, <nuclearcraft:turbine_rotor_stator>],
+	[<ore:gemTrinitite>, <ore:blockTrinitite>, <ore:gemTrinitite>],
+	[<nuclearcraft:turbine_rotor_stator>, <ore:gemTrinitite>, <nuclearcraft:turbine_rotor_stator>]]);
+	}
+	
 recipes.addShaped("ncoutoEmptyCoil", <nuclearcraft:turbine_dynamo_coil_empty>*2, 
 [[<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
 [<nuclearcraft:alloy:15>, <nuclearcraft:alloy:1>, <nuclearcraft:alloy:15>],
@@ -85,4 +101,5 @@ mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_blade_
 mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_blade_curium>, 1.0e-3);
 mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_blade_berkelium>, 6.0e-3);
 mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_blade_californium>, 30.0e-3);
+mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_stator_trinitite>, 0.8e-3);
 
