@@ -164,3 +164,15 @@ nc.sf.wolfram_coil1=%s Tungsten dynamo coils
 tile.nuclearcraft.turbine_rotor_blade_niosteel.name=Niobium-Steel Alloy Turbine Rotor Blade
 tile.nuclearcraft.turbine_rotor_blade_extremenio.name=Extreme-Niobium Alloy Turbine Rotor Blade
 tile.nuclearcraft.turbine_rotor_blade_sicnio.name=SiC-Niobium-CMC Turbine Rotor Blade
+
+// Trinity stuff
+
+tile.nuclearcraft.turbine_dynamo_coil_witherite.name=Witherite Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_baratol.name=Baratol Turbine Dynamo Coil
+
+nc.sf.witherite_coil0=%s Witherite dynamo coil
+nc.sf.witherite_coil1=%s Witherite dynamo coils
+nc.sf.baratol_coil0=%s Baratol dynamo coil
+nc.sf.baratol_coil1=%s Baratol dynamo coils
+
+tile.nuclearcraft.turbine_rotor_stator_trinitite.name=Trinitite covered Turbine Rotor Stator
