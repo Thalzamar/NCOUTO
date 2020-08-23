@@ -8,7 +8,8 @@ Download the Repository as .zip and place the recource and script folders in you
 This uses the ContentTweaker integration of Nuclearcraft: Overhauled to add 33 new Turbine Coils, 6 new Rotor-Blades and 2 new Stators.
 
 12 additional coils and 3 additional blades are enabled for use and crafting when [QMD](https://github.com/lach01298/QMD/) is installed.
-2 additional coils and 1 additional blade are enabled for use and crafting when [Trinity](https://curseforge.com/mc-mods/Trinity) is installed.
+
+2 additional coils and 1 additional blade are enabled for use and crafting when [Trinity](https://curseforge.com/minecraft/mc-mods/trinity) is installed.
 
 Please read the Wiki page for a short overview of what has been added.
 
