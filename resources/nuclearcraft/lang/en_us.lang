@@ -31,7 +31,7 @@ tile.nuclearcraft.turbine_dynamo_coil_cryotheum.name=Cryo-stablized Turbine Dyna
 tile.nuclearcraft.turbine_dynamo_coil_enderium.name=Enderium Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_slime.name=Slimy Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_tin.name=Tin Turbine Dynamo Coil
-tile.nuclearcraft.turbine_dynamo_coil_smore.name=S'more Turbine Dynamo S'moil
+tile.nuclearcraft.turbine_dynamo_coil_smore.name=S'more Turbine Dynamo Coil
 
 nc.sf.redstone_coil0=%s Redstone dynamo coil
 nc.sf.redstone_coil1=%s Redstone dynamo coils
@@ -128,8 +128,6 @@ tile.nuclearcraft.turbine_dynamo_coil_plat.name=Platinum Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_kalium.name=Potassium Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_natrium.name=Sodium Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_strontium.name=Strontium Turbine Dynamo Coil
-tile.nuclearcraft.turbine_dynamo_coil_titan.name=Titanium Turbine Dynamo Coil
-tile.nuclearcraft.turbine_dynamo_coil_wolfram.name=Tungsten Turbine Dynamo Coil
 
 
 nc.sf.chrom_coil0=%s Chromium dynamo coil
@@ -154,13 +152,21 @@ nc.sf.natrium_coil0=%s Sodium dynamo coil
 nc.sf.natrium_coil1=%s Sodium dynamo coils
 nc.sf.strontium_coil0=%s Strontium dynamo coil
 nc.sf.strontium_coil1=%s Strontium dynamo coils
-nc.sf.titan_coil0=%s Titanium dynamo coil
-nc.sf.titan_coil1=%s Titanium dynamo coils
-nc.sf.wolfram_coil0=%s Tungsten dynamo coil
-nc.sf.wolfram_coil1=%s Tungsten dynamo coils
 
 
 
 tile.nuclearcraft.turbine_rotor_blade_niosteel.name=Niobium-Steel Alloy Turbine Rotor Blade
 tile.nuclearcraft.turbine_rotor_blade_extremenio.name=Extreme-Niobium Alloy Turbine Rotor Blade
 tile.nuclearcraft.turbine_rotor_blade_sicnio.name=SiC-Niobium-CMC Turbine Rotor Blade
+
+// Trinity stuff
+
+tile.nuclearcraft.turbine_dynamo_coil_witherite.name=Witherite Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_baratol.name=Baratol Turbine Dynamo Coil
+
+nc.sf.witherite_coil0=%s Witherite dynamo coil
+nc.sf.witherite_coil1=%s Witherite dynamo coils
+nc.sf.baratol_coil0=%s Baratol dynamo coil
+nc.sf.baratol_coil1=%s Baratol dynamo coils
+
+tile.nuclearcraft.turbine_rotor_stator_trinitite.name=Trinitite covered Turbine Rotor Stator
