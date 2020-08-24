@@ -1,4 +1,4 @@
-#loader preinit
+#loader nc_preinit
 
 // || = or , && = and
 mods.nuclearcraft.Registration.registerTurbineCoil("redstone", 1.20, "one copper coil && one silver coil");
