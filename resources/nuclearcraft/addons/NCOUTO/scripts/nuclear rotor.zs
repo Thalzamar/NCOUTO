@@ -1,4 +1,4 @@
-#loader preinit
+#loader nc_preinit
 
 
 mods.nuclearcraft.Registration.registerTurbineStator("thorium", 0.65);
