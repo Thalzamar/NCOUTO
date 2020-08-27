@@ -164,6 +164,16 @@ nc.sf.wolfram_coil1=%s Tungsten dynamo coils
 tile.nuclearcraft.turbine_rotor_blade_niosteel.name=Niobium-Steel Alloy Turbine Rotor Blade
 tile.nuclearcraft.turbine_rotor_blade_extremenio.name=Extreme-Niobium Alloy Turbine Rotor Blade
 tile.nuclearcraft.turbine_rotor_blade_sicnio.name=SiC-Niobium-CMC Turbine Rotor Blade
+tile.nuclearcraft.turbine_rotor_blade_elektron90.name=Unwieldy Elektron90 Alloy Turbine Rotor Blade
+tile.nuclearcraft.turbine_rotor_blade_elektron192.name=Unwieldy Elektron192 Alloy Turbine Rotor Blade
+tile.nuclearcraft.turbine_rotor_blade_elektron231.name=Unwieldy Elektron231 Alloy Turbine Rotor Blade
+tile.nuclearcraft.turbine_rotor_blade_edelstahl.name=Ultra Light Edelstahl Turbine Rotor Blade
+tile.nuclearcraft.turbine_rotor_blade_legierung.name=Ultra Light Edle Elektronlegierung Turbine Rotor Blade
+tile.nuclearcraft.turbine_rotor_blade_matrix.name=Ultra Light Matrix-Legierung Turbine Rotor Blade
+
+tile.nuclearcraft.turbine_rotor_stator_elektron.name=Elektron60-Alloy Turbine Rotor Stator
+
+//item.contenttweaker.elektron60_ingot.name=Elektron60-Alloy Ingot
 
 // Trinity stuff
 

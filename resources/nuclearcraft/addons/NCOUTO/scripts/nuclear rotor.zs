@@ -1,9 +1,8 @@
-#loader preinit
+#loader nc_preinit
 
 
 mods.nuclearcraft.Registration.registerTurbineStator("thorium", 0.65);
 mods.nuclearcraft.Registration.registerTurbineStator("uranium", 0.70);
-
 mods.nuclearcraft.Registration.registerTurbineBlade("neptunium",   1.04, 1.47);
 mods.nuclearcraft.Registration.registerTurbineBlade("plutonium",   1.07, 1.53);
 mods.nuclearcraft.Registration.registerTurbineBlade("americium",   1.14, 1.67);
