@@ -27,6 +27,15 @@ import mods.qmd.target_chamber;
 		[<ore:ingotNiobium>, <ore:ingotNiobium>, <ore:ingotNiobium>],
 		[material, <ore:ingotNiobium>, material]]); }
 		
+		recipes.addShaped("ncoutoelektron60stator",<nuclearcraft:turbine_rotor_stator_elektron>*4, 
+		[[<nuclearcraft:turbine_rotor_stator>, <contenttweaker:elektron60_ingot>, <nuclearcraft:turbine_rotor_stator>],
+		[<contenttweaker:elektron60_ingot>, <nuclearcraft:alloy:15>, <contenttweaker:elektron60_ingot>],
+		[<nuclearcraft:turbine_rotor_stator>, <contenttweaker:elektron60_ingot>, <nuclearcraft:turbine_rotor_stator>]]);
+		
+		
+		
+		
+		
 		recipes.addShaped("ncoutoelektron90blade",<nuclearcraft:turbine_rotor_blade_elektron90>*4, 
 		[[<nuclearcraft:turbine_rotor_blade_niosteel>, <contenttweaker:elektron60_ingot>, <nuclearcraft:turbine_rotor_blade_niosteel>],
 		[<qmd:isotope:5>, <contenttweaker:elektron60_ingot>, <qmd:isotope:5>],
