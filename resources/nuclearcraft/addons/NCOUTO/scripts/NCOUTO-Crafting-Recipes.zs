@@ -70,9 +70,9 @@ if (loadedMods has "qmd") {
 		[<nuclearcraft:turbine_rotor_blade_elektron192>, <contenttweaker:elektron60_ingot>,<nuclearcraft:turbine_rotor_blade_elektron192>]]);
 	
 		recipes.addShaped("ncoutosicmould",<contenttweaker:sic_mould>*4, 
-		[[<nuclearcraft:turbine_rotor_blade_elektron192>, <contenttweaker:elektron60_ingot>,<nuclearcraft:turbine_rotor_blade_elektron192>],
+		[[<nuclearcraft:turbine_rotor_blade_elektron231>, <contenttweaker:elektron60_ingot>,<nuclearcraft:turbine_rotor_blade_elektron231>],
 		[<contenttweaker:elektron60_ingot>,<contenttweaker:blade_core>, <contenttweaker:elektron60_ingot>],
-		[<nuclearcraft:turbine_rotor_blade_elektron192>, <contenttweaker:elektron60_ingot>,<nuclearcraft:turbine_rotor_blade_elektron192>]]);
+		[<nuclearcraft:turbine_rotor_blade_elektron231>, <contenttweaker:elektron60_ingot>,<nuclearcraft:turbine_rotor_blade_elektron231>]]);
 	
 		
 		mods.qmd.target_chamber.addRecipe(<contenttweaker:steel_mould>,((<particle:proton>*100000)^10000)~15.0, <nuclearcraft:turbine_rotor_blade_edelstahl>, <particle:proton>*100000, null ,  null, 11000, 0.5, -6000 );
