@@ -78,3 +78,17 @@ import mods.qmd.target_chamber;
 	
 		AlloyFurnace.addRecipe(<qmd:isotope:3>, <qmd:isotope:8>, <contenttweaker:elektron60_ingot>*4);
 	
+	
+mods.nuclearcraft.Radiation.setRadiationLevel(<contenttweaker:elektron60_ingot>, 1.9e-6);
+mods.nuclearcraft.Radiation.setRadiationLevel(<contenttweaker:blade_core>, 100.0e-3);
+mods.nuclearcraft.Radiation.setRadiationLevel(<contenttweaker:steel_mould>, 150.0e-3);
+mods.nuclearcraft.Radiation.setRadiationLevel(<contenttweaker:alloy_mould>, 150.0e-3);
+mods.nuclearcraft.Radiation.setRadiationLevel(<contenttweaker:sic_mould>, 150.0e-3);
+	
+mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_stator_elektron>, 1.9e-6);
+mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_blade_elektron90>, 3.4e-6);
+mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_blade_elektron192>, 1.0e-6);
+mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_blade_elektron231>, 41.0e-6);
+mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_blade_edelstahl>, 50.0e-3);
+mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_blade_legierung>, 50.0e-3);
+mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_blade_matrix>, 50.0e-3);
