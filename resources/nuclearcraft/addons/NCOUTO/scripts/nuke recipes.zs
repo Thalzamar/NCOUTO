@@ -15,4 +15,4 @@ recipes.addShaped("ncoutotrinititestator", <nuclearcraft:turbine_rotor_stator_tr
 	[<ore:gemTrinitite>, <ore:blockTrinitite>, <ore:gemTrinitite>],
 	[<nuclearcraft:turbine_rotor_stator>, <ore:gemTrinitite>, <nuclearcraft:turbine_rotor_stator>]]);
   
- mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_stator_trinitite>, 800e-6);
+ mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_stator_trinitite>, 175.0e-6);
