@@ -1,4 +1,4 @@
-#loader preinit
+#loader nc_preinit
 
 if (loadedMods has "qmd") {
 mods.nuclearcraft.Registration.registerTurbineCoil("chrom", 1.10, "one redstone coil");
