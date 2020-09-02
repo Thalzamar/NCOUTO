@@ -42,16 +42,16 @@ Infuser.addRecipe(<nuclearcraft:turbine_dynamo_coil_empty>, <liquid:cryotheum>*7
 //recipes.addShapeless("ncoutoHeliumCoil", <nuclearcraft:turbine_dynamo_coil_helium>, [<nuclearcraft:turbine_dynamo_coil_empty>, <forge:bucketfilled>.withTag({FluidName: "liquid_helium", Amount: 1000})]);
 //recipes.addShapeless("ncoutoNitrogenCoil", <nuclearcraft:turbine_dynamo_coil_nitrogen>, [<nuclearcraft:turbine_dynamo_coil_empty>, <forge:bucketfilled>.withTag({FluidName: "liquid_nitrogen", Amount: 1000})]);
 
-Infuser.addRecipe(<nuclearcraft:turbine_rotor_stator>*4, <liquid:tbu>*1152, <nuclearcraft:turbine_rotor_stator_thorium>*4, 1.0, 1.0, 3.15e-6);
-Infuser.addRecipe(<nuclearcraft:turbine_rotor_stator>*4, <liquid:uranium_238>*1152, <nuclearcraft:turbine_rotor_stator_uranium>*4, 1.0, 1.0, 2.0e-6);
-Infuser.addRecipe(<nuclearcraft:turbine_rotor_blade_steel>*4, <liquid:neptunium_237>*1152, <nuclearcraft:turbine_rotor_blade_neptunium>*4, 1.0, 1.0, 4.0e-6);
-Infuser.addRecipe(<nuclearcraft:turbine_rotor_blade_steel>*4, <liquid:plutonium_242>*1152, <nuclearcraft:turbine_rotor_blade_plutonium>*4, 1.0, 1.0, 24.0e-6);
-Infuser.addRecipe(<nuclearcraft:turbine_rotor_blade_extreme>*4, <liquid:americium_243>*1152, <nuclearcraft:turbine_rotor_blade_americium>*4, 1.0, 1.0, 1.0e-3);
-Infuser.addRecipe(<nuclearcraft:turbine_rotor_blade_extreme>*4, <liquid:curium_246>*1152, <nuclearcraft:turbine_rotor_blade_curium>*4, 1.0, 1.0, 1.0e-3);
-Infuser.addRecipe(<nuclearcraft:turbine_rotor_blade_sic_sic_cmc>*4, <liquid:berkelium_247>*1152, <nuclearcraft:turbine_rotor_blade_berkelium>*4, 1.0, 1.0, 6.0e-3);
-Infuser.addRecipe(<nuclearcraft:turbine_rotor_blade_sic_sic_cmc>*4, <liquid:californium_250>*1152, <nuclearcraft:turbine_rotor_blade_californium>*4, 1.0, 1.0, 3.0);
+Infuser.addRecipe(<nuclearcraft:turbine_rotor_stator>*4, <liquid:tbu>*1152, <nuclearcraft:turbine_rotor_stator_thorium>*4, 1.0, 1.0, 0.0);
+Infuser.addRecipe(<nuclearcraft:turbine_rotor_stator>*4, <liquid:uranium_238>*1152, <nuclearcraft:turbine_rotor_stator_uranium>*4, 1.0, 1.0, 0.0);
+Infuser.addRecipe(<nuclearcraft:turbine_rotor_blade_steel>*4, <liquid:neptunium_237>*1152, <nuclearcraft:turbine_rotor_blade_neptunium>*4, 1.0, 1.0, 0.0);
+Infuser.addRecipe(<nuclearcraft:turbine_rotor_blade_steel>*4, <liquid:plutonium_242>*1152, <nuclearcraft:turbine_rotor_blade_plutonium>*4, 1.0, 1.0, 0.0);
+Infuser.addRecipe(<nuclearcraft:turbine_rotor_blade_extreme>*4, <liquid:americium_243>*1152, <nuclearcraft:turbine_rotor_blade_americium>*4, 1.0, 1.0, 0.0);
+Infuser.addRecipe(<nuclearcraft:turbine_rotor_blade_extreme>*4, <liquid:curium_246>*1152, <nuclearcraft:turbine_rotor_blade_curium>*4, 1.0, 1.0, 0.0);
+Infuser.addRecipe(<nuclearcraft:turbine_rotor_blade_sic_sic_cmc>*4, <liquid:berkelium_247>*1152, <nuclearcraft:turbine_rotor_blade_berkelium>*4, 1.0, 1.0, 0.0);
+Infuser.addRecipe(<nuclearcraft:turbine_rotor_blade_sic_sic_cmc>*4, <liquid:californium_250>*1152, <nuclearcraft:turbine_rotor_blade_californium>*4, 1.0, 1.0, 0.0);
 
-
+// SiC-SiC CMC Recipes
 Enricher.addRecipe(<nuclearcraft:alloy:13>, <liquid:hydrogen>*1000, <liquid:sic_vapor>*1000);
 Infuser.addRecipe(<nuclearcraft:alloy:13>, <liquid:sic_vapor>*1000, <nuclearcraft:part:13>);
 Infuser.addRecipe(<nuclearcraft:part:13>, <liquid:sic_vapor>*1000, <nuclearcraft:alloy:14>);
