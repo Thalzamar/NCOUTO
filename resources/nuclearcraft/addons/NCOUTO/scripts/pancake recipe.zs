@@ -5,7 +5,7 @@ recipes.addShaped("goldsmore", <contenttweaker:smore_gold>,
 	[<ore:ingotMarshmallow>, <ore:ingotGold>, null],
 	[null, null, null]]);
 	
-recipes.addShapedless("thmore", <contenttweaker:thmore>,
+recipes.addShapeless("thmore", <contenttweaker:thmore>,
 	[<nuclearcraft:graham_cracker>, <ore:ingotThorium>, <ore:ingotMarshmallow>, <nuclearcraft:graham_cracker>]);
 	
 recipes.addShapeless("caramelsmore", <contenttweaker:smore_caramel>,
