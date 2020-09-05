@@ -1,9 +1,7 @@
 import crafttweaker.item.IIngredient;
 
-recipes.addShaped("goldsmore", <contenttweaker:smore_gold>,
-	[[<ore:ingotGold>, <ore:ingotChocolate>, null],
-	[<ore:ingotMarshmallow>, <ore:ingotGold>, null],
-	[null, null, null]]);
+recipes.addShapeless("goldsmore", <contenttweaker:smore_gold>,
+	[<ore:ingotGold>, <ore:ingotChocolate>,	<ore:ingotMarshmallow>, <ore:ingotGold>]);
 	
 recipes.addShapeless("thmore", <contenttweaker:thmore>,
 	[<nuclearcraft:graham_cracker>, <ore:ingotThorium>, <ore:ingotMarshmallow>, <nuclearcraft:graham_cracker>]);
