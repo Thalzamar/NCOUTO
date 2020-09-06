@@ -51,6 +51,12 @@ Infuser.addRecipe(<nuclearcraft:turbine_rotor_blade_extreme>*4, <liquid:curium_2
 Infuser.addRecipe(<nuclearcraft:turbine_rotor_blade_sic_sic_cmc>*4, <liquid:berkelium_247>*1152, <nuclearcraft:turbine_rotor_blade_berkelium>*4, 1.0, 1.0, 0.0);
 Infuser.addRecipe(<nuclearcraft:turbine_rotor_blade_sic_sic_cmc>*4, <liquid:californium_250>*1152, <nuclearcraft:turbine_rotor_blade_californium>*4, 1.0, 1.0, 0.0);
 
+val alloy_blades = {<contenttweaker:blade_hc>: <ore:ingotHardCarbon>, <contenttweaker:blade_tc>: <ore:ingotThermoconducting>} as IIngredient[IIngredient];
+for blade, ingot in alloy_blades {
+	AlloyFurnace.addRecipe(ingot*2, <nuclearcraft:turbine_rotor_blade_steel>, blade, 4.0, 2.0, 0.0);
+	}
+
+
 // SiC-SiC CMC Recipes
 Enricher.addRecipe(<nuclearcraft:alloy:13>, <liquid:hydrogen>*1000, <liquid:sic_vapor>*1000);
 Infuser.addRecipe(<nuclearcraft:alloy:13>, <liquid:sic_vapor>*1000, <nuclearcraft:part:13>);

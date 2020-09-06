@@ -13,7 +13,8 @@ mods.nuclearcraft.Assembler.addRecipe(<minecraft:egg>*2, <minecraft:milk_bucket>
 mods.nuclearcraft.Manufactory.addRecipe(<minecraft:sugar>, <contenttweaker:caramel>);
 
 val blades = {steelcake: <nuclearcraft:turbine_rotor_blade_steel>, extremecake: <nuclearcraft:turbine_rotor_blade_extreme>,
-sicsiccmcake: <nuclearcraft:turbine_rotor_blade_sic_sic_cmc>} as IIngredient[string];
+sicsiccmcake: <nuclearcraft:turbine_rotor_blade_sic_sic_cmc>, hccake: <contenttweaker:blade_hc>,
+tccake: <contenttweaker:blade_tc>} as IIngredient[string];
 
 for name, ingr in blades {
 	recipes.addShaped(name ~ "blade", itemUtils.getItem("nuclearcraft:turbine_rotor_blade_" ~ name),

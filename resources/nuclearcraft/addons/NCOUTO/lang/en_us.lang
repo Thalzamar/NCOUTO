@@ -173,8 +173,6 @@ tile.nuclearcraft.turbine_rotor_blade_matrix.name=Ultra Light Matrix-Legierung T
 
 tile.nuclearcraft.turbine_rotor_stator_elektron.name=Elektron60-Alloy Turbine Rotor Stator
 
-//item.contenttweaker.elektron60_ingot.name=Elektron60-Alloy Ingot
-
 // Trinity stuff
 
 tile.nuclearcraft.turbine_dynamo_coil_witherite.name=Witherite Turbine Dynamo Coil
@@ -186,3 +184,10 @@ nc.sf.baratol_coil0=%s Baratol dynamo coil
 nc.sf.baratol_coil1=%s Baratol dynamo coils
 
 tile.nuclearcraft.turbine_rotor_stator_trinitite.name=Trinitite covered Turbine Rotor Stator
+
+// Pancake Stuff
+tile.nuclearcraft.turbine_rotor_blade_steelcake.name=Steelcake Turbine Rotor Blade
+tile.nuclearcraft.turbine_rotor_blade_extremecake.name=Extremecake Turbine Rotor Blade
+tile.nuclearcraft.turbine_rotor_blade_sicsiccmcake.name=SiC-SiC Ceramic Matrix Cake Turbine Rotor Blade
+tile.nuclearcraft.turbine_rotor_blade_hccake.name=Hard Carbon Cake Turbine Rotor Blade
+tile.nuclearcraft.turbine_rotor_blade_tccake.name=Thermoconducting Cake Turbine Rotor Blade
