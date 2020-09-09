@@ -3,7 +3,6 @@ import crafttweaker.liquid.ILiquidStack;
 import mods.nuclearcraft.Infuser;
 import mods.nuclearcraft.Enricher;
 import mods.nuclearcraft.AlloyFurnace;
-import mods.qmd.target_chamber;
 
 val material_map = {redstone: <ore:dustRedstone>, graphite: <ore:ingotGraphite>, lithium: <ore:ingotLithium>, lapis: <ore:gemLapis>,
 emerald: <ore:gemEmerald>, diamond: <ore:gemDiamond>, villiaumite: <ore:gemVilliaumite>, fluorite: <ore:gemFluorite>, carobbiite: <ore:gemCarobbiite>,
