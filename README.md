@@ -4,7 +4,8 @@ Nuclearcraft Overhauled: Unrealistic Turbine Overhaul
 Requires Nuclearcraft:Overhauled version 2o.3.4 or newer.
 
 Download the Repository as .zip and place the recource and script folders in your Minecraft instance.
-Or go to [Curseforge](https://www.curseforge.com/minecraft/customization/nuclearcraft-overhauled-unrealistic-turbine) 
+
+Or go to [Curseforge](https://www.curseforge.com/minecraft/customization/nuclearcraft-overhauled-unrealistic-turbine) and download it there.
 
 This uses the ContentTweaker integration of Nuclearcraft: Overhauled to add 33 new Turbine Coils, 6 new Rotor-Blades and 2 new Stators.
 
