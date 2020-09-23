@@ -76,7 +76,7 @@ import mods.qmd.target_chamber;
 		mods.qmd.target_chamber.addRecipe(<contenttweaker:alloy_mould>,((<particle:proton>*100000)^10000)~15.0, <nuclearcraft:turbine_rotor_blade_legierung>, <particle:proton>*100000, null ,  null, 11000, 0.5, -6000 );
 		mods.qmd.target_chamber.addRecipe(<contenttweaker:sic_mould>,((<particle:proton>*100000)^10000)~15.0, <nuclearcraft:turbine_rotor_blade_matrix>, <particle:proton>*100000, null ,  null, 11000, 0.5, -6000 );
 	
-		AlloyFurnace.addRecipe(<qmd:isotope:3>, <qmd:isotope:8>, <contenttweaker:elektron60_ingot>*4);
+		AlloyFurnace.addRecipe(<ore:ingotMagnesium26>, <ore:ingotCobalt60>, <contenttweaker:elektron60_ingot>*4);
 	
 	
 mods.nuclearcraft.Radiation.setRadiationLevel(<contenttweaker:elektron60_ingot>, 1.9e-6);
