@@ -29,7 +29,7 @@ import mods.qmd.target_chamber;
 		
 		recipes.addShaped("ncoutoelektron60stator",<nuclearcraft:turbine_rotor_stator_elektron>*4, 
 		[[<nuclearcraft:turbine_rotor_stator>, <contenttweaker:elektron60_ingot>, <nuclearcraft:turbine_rotor_stator>],
-		[<contenttweaker:elektron60_ingot>, <nuclearcraft:alloy:15>, <contenttweaker:elektron60_ingot>],
+		[<contenttweaker:elektron60_ingot>, <ore:ingotHSLASteel>, <contenttweaker:elektron60_ingot>],
 		[<nuclearcraft:turbine_rotor_stator>, <contenttweaker:elektron60_ingot>, <nuclearcraft:turbine_rotor_stator>]]);
 		
 		
@@ -53,7 +53,7 @@ import mods.qmd.target_chamber;
 	
 		recipes.addShaped("ncoutobladecore",<contenttweaker:blade_core>, 
 		[[<nuclearcraft:turbine_rotor_blade_neptunium>, <nuclearcraft:turbine_rotor_blade_plutonium>, <nuclearcraft:turbine_rotor_blade_americium>],
-		[<contenttweaker:elektron60_ingot>, <nuclearcraft:alloy:15>, <contenttweaker:elektron60_ingot>],
+		[<contenttweaker:elektron60_ingot>, <ore:ingotHSLASteel>, <contenttweaker:elektron60_ingot>],
 		[<nuclearcraft:turbine_rotor_blade_curium>, <nuclearcraft:turbine_rotor_blade_berkelium>, <nuclearcraft:turbine_rotor_blade_californium>]]);
 	
 		recipes.addShaped("ncoutosteelmould",<contenttweaker:steel_mould>*4, 
