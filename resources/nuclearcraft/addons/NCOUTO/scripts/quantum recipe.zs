@@ -15,7 +15,7 @@ import mods.qmd.target_chamber;
 		for name, material in qmd_materials {
 		recipes.addShaped("ncouto" ~ name ~ "coil", itemUtils.getItem("nuclearcraft:turbine_dynamo_coil_" ~ name)*2,
 		[[material, material, material],
-		[<nuclearcraft:alloy:15>, <nuclearcraft:alloy:1>, <nuclearcraft:alloy:15>],
+		[<ore:ingotHSLASteel>, <ore:ingotTough>, <ore:ingotHSLASteel>],
 		[material, material, material]]); }
 	
 	
