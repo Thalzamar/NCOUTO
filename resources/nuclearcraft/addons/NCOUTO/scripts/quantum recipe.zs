@@ -38,18 +38,18 @@ import mods.qmd.target_chamber;
 		
 		recipes.addShaped("ncoutoelektron90blade",<nuclearcraft:turbine_rotor_blade_elektron90>*4, 
 		[[<nuclearcraft:turbine_rotor_blade_niosteel>, <contenttweaker:elektron60_ingot>, <nuclearcraft:turbine_rotor_blade_niosteel>],
-		[<qmd:isotope:5>, <contenttweaker:elektron60_ingot>, <qmd:isotope:5>],
+		[<ore:dustStrontium90>, <contenttweaker:elektron60_ingot>, <ore:dustStrontium90>],
 		[<nuclearcraft:turbine_rotor_blade_niosteel>, <contenttweaker:elektron60_ingot>, <nuclearcraft:turbine_rotor_blade_niosteel>]]);
 		
 		recipes.addShaped("ncoutoelektron192blade",<nuclearcraft:turbine_rotor_blade_elektron192>*4, 
-		[[<nuclearcraft:turbine_rotor_blade_extremenio>, <qmd:isotope:9>, <nuclearcraft:turbine_rotor_blade_extremenio>],
-		[<qmd:isotope:2>, <contenttweaker:elektron60_ingot>, <qmd:isotope:2>],
-		[<nuclearcraft:turbine_rotor_blade_extremenio>, <qmd:isotope:9>, <nuclearcraft:turbine_rotor_blade_extremenio>]]);	
+		[[<nuclearcraft:turbine_rotor_blade_extremenio>, <ore:ingotIridium192>, <nuclearcraft:turbine_rotor_blade_extremenio>],
+		[<ore:ingotBeryllium7>, <contenttweaker:elektron60_ingot>, <ore:ingotBeryllium7>],
+		[<nuclearcraft:turbine_rotor_blade_extremenio>, <ore:ingotIridium192>, <nuclearcraft:turbine_rotor_blade_extremenio>]]);	
 		
 		recipes.addShaped("ncoutoelektron231blade",<nuclearcraft:turbine_rotor_blade_elektron231>*4, 
-		[[<nuclearcraft:turbine_rotor_blade_sicnio>, <qmd:isotope:1>, <nuclearcraft:turbine_rotor_blade_sicnio>],
-		[<qmd:isotope:7>, <contenttweaker:elektron60_ingot>, <qmd:isotope:7>],
-		[<nuclearcraft:turbine_rotor_blade_sicnio>, <qmd:isotope:1>, <nuclearcraft:turbine_rotor_blade_sicnio>]]);		
+		[[<nuclearcraft:turbine_rotor_blade_sicnio>, <ore:dustPromethium147>, <nuclearcraft:turbine_rotor_blade_sicnio>],
+		[<ore:dustProtactinium231>, <contenttweaker:elektron60_ingot>, <ore:dustProtactinium231>],
+		[<nuclearcraft:turbine_rotor_blade_sicnio>, <ore:dustPromethium147>, <nuclearcraft:turbine_rotor_blade_sicnio>]]);		
 	
 		recipes.addShaped("ncoutobladecore",<contenttweaker:blade_core>, 
 		[[<nuclearcraft:turbine_rotor_blade_neptunium>, <nuclearcraft:turbine_rotor_blade_plutonium>, <nuclearcraft:turbine_rotor_blade_americium>],
