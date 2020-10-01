@@ -72,9 +72,9 @@ import mods.qmd.target_chamber;
 		[<nuclearcraft:turbine_rotor_blade_elektron231>, <contenttweaker:elektron60_ingot>,<nuclearcraft:turbine_rotor_blade_elektron231>]]);
 	
 		
-		mods.qmd.target_chamber.addRecipe(<contenttweaker:steel_mould>,((<particle:proton>*100000)^10000)~15.0, <nuclearcraft:turbine_rotor_blade_edelstahl>, <particle:proton>*100000, null ,  null, 11000, 0.5, -6000 );
-		mods.qmd.target_chamber.addRecipe(<contenttweaker:alloy_mould>,((<particle:proton>*100000)^10000)~15.0, <nuclearcraft:turbine_rotor_blade_legierung>, <particle:proton>*100000, null ,  null, 11000, 0.5, -6000 );
-		mods.qmd.target_chamber.addRecipe(<contenttweaker:sic_mould>,((<particle:proton>*100000)^10000)~15.0, <nuclearcraft:turbine_rotor_blade_matrix>, <particle:proton>*100000, null ,  null, 11000, 0.5, -6000 );
+		mods.qmd.target_chamber.addRecipe(<contenttweaker:steel_mould>,((<particle:proton>*100000)^10000)~10.0, <nuclearcraft:turbine_rotor_blade_edelstahl>, <particle:proton>*100000, null ,  null, 11000, 0.5, -6000 );
+		mods.qmd.target_chamber.addRecipe(<contenttweaker:alloy_mould>,((<particle:proton>*100000)^10000)~10.0, <nuclearcraft:turbine_rotor_blade_legierung>, <particle:proton>*100000, null ,  null, 11000, 0.5, -6000 );
+		mods.qmd.target_chamber.addRecipe(<contenttweaker:sic_mould>,((<particle:proton>*100000)^10000)~10.0, <nuclearcraft:turbine_rotor_blade_matrix>, <particle:proton>*100000, null ,  null, 11000, 0.5, -6000 );
 	
 		AlloyFurnace.addRecipe(<ore:ingotMagnesium26>, <ore:ingotCobalt60>, <contenttweaker:elektron60_ingot>*4);
 	
