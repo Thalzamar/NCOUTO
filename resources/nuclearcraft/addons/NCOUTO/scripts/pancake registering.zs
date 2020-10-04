@@ -3,6 +3,7 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.ItemFood;
 import crafttweaker.entity.IEntityLivingBase;
+import mods.contenttweaker.Item;
 
 var goldsmore = VanillaFactory.createItemFood("smore_gold", 8);
 
@@ -60,3 +61,23 @@ caramel.onItemFoodEaten = function(stack, world, player) {
 		}
 	};
 caramel.register();
+
+var hcblade = VanillaFactory.createItem("blade_hc");
+hcblade.maxStackSize = 64;
+hcblade.register();
+
+var tcblade = VanillaFactory.createItem("blade_tc");
+tcblade.maxStackSize = 64;
+tcblade.register();
+
+var febblade = VanillaFactory.createItem("blade_feb");
+febblade.maxStackSize = 64;
+febblade.register();
+
+var toughblade = VanillaFactory.createItem("blade_tough");
+toughblade.maxStackSize = 64;
+toughblade.register();
+
+var pancakecore = VanillaFactory.createItem("pancake_core");
+pancakecore.maxStackSize = 64;
+pancakecore.register();

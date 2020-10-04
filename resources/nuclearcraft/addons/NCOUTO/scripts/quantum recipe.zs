@@ -78,6 +78,11 @@ import mods.qmd.target_chamber;
 	
 		AlloyFurnace.addRecipe(<ore:ingotMagnesium26>, <ore:ingotCobalt60>, <contenttweaker:elektron60_ingot>*4);
 	
+val ttblades = [<contenttweaker:steel_mould>, <contenttweaker:alloy_mould>, <contenttweaker:sic_mould>, <contenttweaker:blade_core>] as IIngredient[];
+for blade in ttblades {
+	blade.addTooltip(format.italic("Crafting Ingredient."));
+	}
+
 	
 mods.nuclearcraft.Radiation.setRadiationLevel(<contenttweaker:elektron60_ingot>, 1.9e-6);
 mods.nuclearcraft.Radiation.setRadiationLevel(<contenttweaker:blade_core>, 100.0e-3);

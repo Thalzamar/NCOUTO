@@ -28,10 +28,3 @@ sicmould.register();
 
 }
 
-var hcblade = VanillaFactory.createItem("blade_hc");
-hcblade.maxStackSize = 64;
-hcblade.register();
-
-var tcblade = VanillaFactory.createItem("blade_tc");
-tcblade.maxStackSize = 64;
-tcblade.register();
