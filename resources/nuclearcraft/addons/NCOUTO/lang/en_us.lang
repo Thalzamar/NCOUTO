@@ -193,3 +193,6 @@ tile.nuclearcraft.turbine_rotor_blade_hccake.name=Hard Carbon Cake Turbine Rotor
 tile.nuclearcraft.turbine_rotor_blade_tccake.name=Thermoconducting Cake Turbine Rotor Blade
 tile.nuclearcraft.turbine_rotor_blade_toughcake.name=Tough Cake Turbine Rotor Blade
 tile.nuclearcraft.turbine_rotor_blade_febcake.name=Ferroboron Cake Turbine Rotor Blade
+tile.nuclearcraft.turbine_rotor_blade_limno2cake.name=Lithium Manganese Dioxide Cake Turbine Rotor Blade
+tile.nuclearcraft.turbine_rotor_blade_mgb2cake.name=Magnesium Diboride Cake Turbine Rotor Blade
+tile.nuclearcraft.turbine_rotor_blade_zircaloycake.name=Zircaloy Cake Turbine Rotor Blade

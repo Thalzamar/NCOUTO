@@ -78,6 +78,18 @@ var toughblade = VanillaFactory.createItem("blade_tough");
 toughblade.maxStackSize = 64;
 toughblade.register();
 
+var mgb2blade = VanillaFactory.createItem("blade_mgb2");
+mgb2blade.maxStackSize = 64;
+mgb2blade.register();
+
+var limno2blade = VanillaFactory.createItem("blade_limno2");
+limno2blade.maxStackSize = 64;
+limno2blade.register();
+
+var zircaloyblade = VanillaFactory.createItem("blade_zircaloy");
+zircaloyblade.maxStackSize = 64;
+zircaloyblade.register();
+
 var pancakecore = VanillaFactory.createItem("pancake_core");
 pancakecore.maxStackSize = 64;
 pancakecore.register();

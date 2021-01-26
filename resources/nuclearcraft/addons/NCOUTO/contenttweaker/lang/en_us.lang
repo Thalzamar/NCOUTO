@@ -13,3 +13,6 @@ item.contenttweaker.blade_tc.name=Thermoconducting Alloy Turbine Rotor Blade
 item.contenttweaker.blade_tough.name=Tough Alloy Turbine Rotor Blade
 item.contenttweaker.blade_feb.name=Ferroboron Alloy Turbine Rotor Blade
 item.contenttweaker.pancake_core.name=Pancake Turbine Rotor Blade Core
+item.contenttweaker.blade_limno2.name=Lithium Manganese Dioxide Turbine Rotor Blade
+item.contenttweaker.blade_mgb2.name=Magnesium Diboride Turbine Rotor Blade
+item.contenttweaker.blade_zircaloy.name=Zircaloy Turbine Rotor Blade
