@@ -32,6 +32,18 @@ tile.nuclearcraft.turbine_dynamo_coil_enderium.name=Enderium Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_slime.name=Slimy Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_tin.name=Tin Turbine Dynamo Coil
 tile.nuclearcraft.turbine_dynamo_coil_smore.name=S'more Turbine Dynamo S'moil
+tile.nuclearcraft.turbine_dynamo_coil_ferroboron.name=Ferroboron Alloy Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_tough.name=Tough Alloy Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_extreme.name=Extreme Alloy Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_mgb2.name=Magnesium Diboride Alloy Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_limno2.name=Lithium Manganese Dioxide Alloy Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_hsla.name=HSLA Steel Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_sicsic.name=SiC-SiC CMC Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_steel.name=Steel Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_bn.name=Boron Nitride Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_bas.name=Boron Arsenide Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_rhodo.name=Rhodochrosite Turbine Dynamo Coil
+tile.nuclearcraft.turbine_dynamo_coil_zirconium.name=Zirconium Turbine Dynamo Coil
 
 nc.sf.redstone_coil0=%s Redstone dynamo coil
 nc.sf.redstone_coil1=%s Redstone dynamo coils
@@ -101,6 +113,30 @@ nc.sf.tin_coil0=%s Tin dynamo coil
 nc.sf.tin_coil1=%s Tin dynamo coils
 nc.sf.smore_coil0=%s S'more dynamo coil
 nc.sf.smore_coil1=%s S'more dynamo coils
+nc.sf.ferroboron_coil0=%s Ferroboron dynamo coil
+nc.sf.ferroboron_coil1=%s Ferroboron dynamo coils
+nc.sf.tough_coil0=%s Tough Alloy dynamo coil
+nc.sf.tough_coil1=%s Tough Alloy dynamo coils
+nc.sf.extreme_coil0=%s Extreme Alloy dynamo coil
+nc.sf.extreme_coil1=%s Extreme Alloy dynamo coils
+nc.sf.mgb2_coil0=%s Magnesium Diboride Alloy dynamo coil
+nc.sf.mgb2_coil1=%s Magnesium Diboride Alloy dynamo coils
+nc.sf.limno2_coil0=%s Lithium Manganese Dioxide Alloy dynamo coil
+nc.sf.limno2_coil1=%s Lithium Manganese Dioxide Alloy dynamo coils
+nc.sf.hsla_coil0=%s HSLA Steel dynamo coil
+nc.sf.hsla_coil1=%s HSLA Steel dynamo coils
+nc.sf.sicsic_coil0=%s SiC-SiC CMC dynamo coil
+nc.sf.sicsic_coil1=%s SiC-SiC CMC dynamo coils
+nc.sf.steel_coil0=%s Steel dynamo coil
+nc.sf.steel_coil1=%s Steel dynamo coils
+nc.sf.bn_coil0=%s Boron Nitride dynamo coil
+nc.sf.bn_coil1=%s Boron Nitride dynamo coils
+nc.sf.bas_coil0=%s Boron Arsenide dynamo coil
+nc.sf.bas_coil1=%s Boron Arsenide dynamo coils
+nc.sf.rhodo_coil0=%s Rhodochrosite dynamo coil
+nc.sf.rhodo_coil1=%s Rhodochrosite dynamo coils
+nc.sf.zirconium_coil0=%s Zirconium dynamo coil
+nc.sf.zirconium_coil1=%s Zirconium dynamo coils
 
 
 
@@ -184,15 +220,3 @@ nc.sf.baratol_coil0=%s Baratol dynamo coil
 nc.sf.baratol_coil1=%s Baratol dynamo coils
 
 tile.nuclearcraft.turbine_rotor_stator_trinitite.name=Trinitite covered Turbine Rotor Stator
-
-// Pancake Stuff
-tile.nuclearcraft.turbine_rotor_blade_steelcake.name=Steelcake Turbine Rotor Blade
-tile.nuclearcraft.turbine_rotor_blade_extremecake.name=Extremecake Turbine Rotor Blade
-tile.nuclearcraft.turbine_rotor_blade_sicsiccmcake.name=SiC-SiC Ceramic Matrix Cake Turbine Rotor Blade
-tile.nuclearcraft.turbine_rotor_blade_hccake.name=Hard Carbon Cake Turbine Rotor Blade
-tile.nuclearcraft.turbine_rotor_blade_tccake.name=Thermoconducting Cake Turbine Rotor Blade
-tile.nuclearcraft.turbine_rotor_blade_toughcake.name=Tough Cake Turbine Rotor Blade
-tile.nuclearcraft.turbine_rotor_blade_febcake.name=Ferroboron Cake Turbine Rotor Blade
-tile.nuclearcraft.turbine_rotor_blade_limno2cake.name=Lithium Manganese Dioxide Cake Turbine Rotor Blade
-tile.nuclearcraft.turbine_rotor_blade_mgb2cake.name=Magnesium Diboride Cake Turbine Rotor Blade
-tile.nuclearcraft.turbine_rotor_blade_zircaloycake.name=Zircaloy Cake Turbine Rotor Blade

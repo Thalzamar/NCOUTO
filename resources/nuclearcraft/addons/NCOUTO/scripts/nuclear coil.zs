@@ -33,8 +33,20 @@ mods.nuclearcraft.Registration.registerTurbineCoil("helium",1.09, "exactly three
 mods.nuclearcraft.Registration.registerTurbineCoil("cryotheum",1.30, "four magnesium coils");
 mods.nuclearcraft.Registration.registerTurbineCoil("enderium",1.09, "four connectors");
 mods.nuclearcraft.Registration.registerTurbineCoil("slime",1.15, "one obsidian coil");
-mods.nuclearcraft.Registration.registerTurbineCoil("tin",1.09, "two graphite graphite coils");
+mods.nuclearcraft.Registration.registerTurbineCoil("tin",1.09, "two graphite coils");
 mods.nuclearcraft.Registration.registerTurbineCoil("smore",1.20, "one thermoconducting coil");
+mods.nuclearcraft.Registration.registerTurbineCoil("ferroboron", 1.01, "two magnesium coils");
+mods.nuclearcraft.Registration.registerTurbineCoil("tough", 1.05, "one ferroboron coil");
+mods.nuclearcraft.Registration.registerTurbineCoil("extreme", 1.14, "one tough coil && one graphite coil");
+mods.nuclearcraft.Registration.registerTurbineCoil("mgb2", 1.18, "one extreme coil && one graphite coil");
+mods.nuclearcraft.Registration.registerTurbineCoil("limno2", 1.22, "one mgb2 coil");
+mods.nuclearcraft.Registration.registerTurbineCoil("hsla", 1.04, "two casings");
+mods.nuclearcraft.Registration.registerTurbineCoil("sicsic", 1.03, "one of any coil && one casing");
+mods.nuclearcraft.Registration.registerTurbineCoil("steel", 1.07, "one copper coil && one connector");
+mods.nuclearcraft.Registration.registerTurbineCoil("bn", 1.08, "one magnesium coil && one connector");
+mods.nuclearcraft.Registration.registerTurbineCoil("bas", 1.10, "one boron coil && one arsenic coil");
+mods.nuclearcraft.Registration.registerTurbineCoil("rhodo", 1.14, "one helium coil && one connector");
+mods.nuclearcraft.Registration.registerTurbineCoil("zirconium", 1.09, "one gold coil && one connector");
 
 
 

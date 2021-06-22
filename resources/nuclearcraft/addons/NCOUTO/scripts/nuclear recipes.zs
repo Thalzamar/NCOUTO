@@ -9,7 +9,10 @@ emerald: <ore:gemEmerald>, diamond: <ore:gemDiamond>, villiaumite: <ore:gemVilli
 hardcarbon: <ore:ingotHardCarbon>, zircaloy: <ore:ingotZircaloy>, thermoconducting: <ore:ingotThermoconducting>, iron: <ore:ingotIron>,
 boron: <ore:ingotBoron>, quartz: <ore:gemQuartz>, arsenic: <ore:dustArsenic>, glowstone: <ore:dustGlowstone>, nether: <ore:ingotBrickNether>,
 obsidian: <ore:obsidian>, end: <ore:endstone>, prismarine: <ore:gemPrismarine>, purpur: <minecraft:purpur_block>, lead: <ore:ingotLead>, 
-manganese: <ore:ingotManganese>, slime: <ore:slimeball>, enderium: <ore:ingotEnderium>, cryotheum: <ore:dustCryotheum>, tin: <ore:ingotTin> } as IIngredient[string];
+manganese: <ore:ingotManganese>, slime: <ore:slimeball>, enderium: <ore:ingotEnderium>, cryotheum: <ore:dustCryotheum>, tin: <ore:ingotTin>,
+ferroboron: <ore:ingotFerroboron>, tough: <ore:ingotTough>, extreme: <ore:ingotExtreme>, mgb2: <ore:ingotMagnesiumDiboride>, 
+limno2: <ore:ingotLithiumManganeseDioxide>, hsla: <ore:ingotHSLASteel>, sicsic: <ore:ingotSiCSiCCMC>, steel: <ore:ingotSteel>, bn: <ore:gemBoronNitride>,
+bas: <ore:gemBoronArsenide>, rhodo: <ore:gemRhodochrosite>, zirconium: <ore:ingotZirconium>} as IIngredient[string];
 
 for name, material in material_map {
 	recipes.addShaped("ncouto" ~ name ~ "coil", itemUtils.getItem("nuclearcraft:turbine_dynamo_coil_" ~ name)*2,
@@ -52,9 +55,15 @@ Infuser.addRecipe(<nuclearcraft:turbine_rotor_blade_sic_sic_cmc>*4, <liquid:cali
 
 
 // SiC-SiC CMC Recipes
-Enricher.addRecipe(<nuclearcraft:alloy:13>, <liquid:hydrogen>*1000, <liquid:sic_vapor>*1000);
-Infuser.addRecipe(<nuclearcraft:alloy:13>, <liquid:sic_vapor>*1000, <nuclearcraft:part:13>);
-Infuser.addRecipe(<nuclearcraft:part:13>, <liquid:sic_vapor>*1000, <nuclearcraft:alloy:14>);
+Enricher.addRecipe(<ore:ingotSiliconCarbide>, <liquid:hydrogen>*1000, <liquid:sic_vapor>*1000);
+Infuser.addRecipe(<nuclearcraft:alloy:13>, <liquid:sic_vapor>*1000, <ore:fiberSiliconCarbide>);
+
+var fibre =  <ore:fiberSiliconCarbide>;
+
+recipes.addShaped("sicsiccmc", <nuclearcraft:alloy:14>,
+	[[fibre,fibre,fibre],
+	[ fibre, <ore:ingotExtreme>,  fibre],
+	[fibre, fibre, fibre]]); 
 
 mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_dynamo_coil_corium>, 15.0e-6);
 mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_stator_thorium>, 840.0e-9);
