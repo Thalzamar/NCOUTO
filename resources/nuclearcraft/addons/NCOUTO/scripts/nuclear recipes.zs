@@ -58,12 +58,7 @@ Infuser.addRecipe(<nuclearcraft:turbine_rotor_blade_sic_sic_cmc>*4, <liquid:cali
 Enricher.addRecipe(<ore:ingotSiliconCarbide>, <liquid:hydrogen>*1000, <liquid:sic_vapor>*1000);
 Infuser.addRecipe(<nuclearcraft:alloy:13>, <liquid:sic_vapor>*1000, <ore:fiberSiliconCarbide>);
 
-var fibre =  <ore:fiberSiliconCarbide>;
-
-recipes.addShaped("sicsiccmc", <nuclearcraft:alloy:14>,
-	[[fibre,fibre,fibre],
-	[ fibre, <ore:ingotExtreme>,  fibre],
-	[fibre, fibre, fibre]]); 
+AlloyFurnace.addRecipe(<ore:fiberSiliconCarbide>*8, <ore:ingotExtreme>, <ore:ingotSiCSiCCMC>, 2.0, 4.0, 0.0);
 
 mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_dynamo_coil_corium>, 15.0e-6);
 mods.nuclearcraft.Radiation.setRadiationLevel(<nuclearcraft:turbine_rotor_stator_thorium>, 840.0e-9);
