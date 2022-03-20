@@ -13,6 +13,6 @@ mods.nuclearcraft.Registration.registerTurbineBlade("elektron231",   1.10, 0.95)
 mods.nuclearcraft.Registration.registerTurbineBlade("edelstahl", 1.50, 1.25);
 mods.nuclearcraft.Registration.registerTurbineBlade("legierung", 1.50, 1.50);
 mods.nuclearcraft.Registration.registerTurbineBlade("matrix", 1.50, 1.75);
-
+mods.nuclearcraft.Registration.registerTurbineBlade("copernicum", 1.30, 2.30);
 }
 

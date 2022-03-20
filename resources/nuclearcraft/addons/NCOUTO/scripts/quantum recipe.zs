@@ -32,7 +32,10 @@ import mods.qmd.target_chamber;
 		[<contenttweaker:elektron60_ingot>, <ore:ingotHSLASteel>, <contenttweaker:elektron60_ingot>],
 		[<nuclearcraft:turbine_rotor_stator>, <contenttweaker:elektron60_ingot>, <nuclearcraft:turbine_rotor_stator>]]);
 		
-		
+		recipes.addShaped("ncoutocopernicumblade",<nuclearcraft:turbine_rotor_blade_copernicum>*4, 
+		[[<qmd:turbine_blade_super_alloy>, <contenttweaker:elektron60_ingot>, <qmd:turbine_blade_super_alloy>],
+		[<ore:ingotCopernicium291>, <contenttweaker:elektron60_ingot>, <ore:ingotCopernicium291>],
+		[<qmd:turbine_blade_super_alloy>, <contenttweaker:elektron60_ingot>, <qmd:turbine_blade_super_alloy>]]);
 		
 		
 		
