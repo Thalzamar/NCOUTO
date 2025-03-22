@@ -23,7 +23,7 @@ static StabilizerInfoList as [StabilizerInfo] = [
 	StabilizerInfo("LithiumManganeseDioxide",1.10, "one hslasteelstabilizer coil"),
 	StabilizerInfo("MagnesiumDiboride",1.15, "one lithiummanganesedioxidestabilizer coil || one tinmagnet coil"),
 	StabilizerInfo("Tough",1.20, "one magnesiumdiboridestabilizer coil || one ferroboronmagnet coil"),
-	StabilizerInfo("Extreme",1.30, "one coriumstabilizer coil || one siliconcarbidemagnet coil"),
+	StabilizerInfo("ExtremeAlloy",1.30, "one coriumstabilizer coil || one siliconcarbidemagnet coil"),
 	StabilizerInfo("SiCSiCCMC",1.45, "one extremealloystabilizer coil || one nakmagnet coil"),
 	StabilizerInfo("Sodium",1.50, "one sicsiccmcstabilizer coil"),
 	StabilizerInfo("BariumOxide",1.55, "one sodiumstabilizer coil || one potassiummagnet coil"),
